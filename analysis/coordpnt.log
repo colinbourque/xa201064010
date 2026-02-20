@@ -1,4 +1,4 @@
-STARTLOG: 2026/02/19 13:06:18
+STARTLOG: 2026/02/20 14:06:07
 EXECNAME: coordpnt
 RUNPATH:  /Users/colinbourque/astrophysics/xray-data/4U-1700-377/XRISM/201064010/analysis
 
@@ -25,30 +25,30 @@ coordpnt: INFO: startsysnum: 4
 coordpnt: INFO: stopsysname: DET
 coordpnt: INFO: stopsysnum: 2
 coordpnt: INFO: Values of actual pointing parameters:
-coordpnt: INFO: ra: 255.98706
-coordpnt: INFO: dec: -37.843708
-coordpnt: INFO: roll: 88.586416
-coordpnt: INFO: Actual pointing quaternion (attitude):  0.71461652 0.54413055 -0.34307301 0.27485648
+coordpnt: INFO: ra: 255.987
+coordpnt: INFO: dec: -37.843621
+coordpnt: INFO: roll: 88.586395
+coordpnt: INFO: Actual pointing quaternion (attitude):  0.71461664 0.54412984 -0.34307364 0.27485679
 coordpnt: INFO: Effective values of nominal pointing parameters:
-coordpnt: INFO: ra: 255.98706
-coordpnt: INFO: dec: -37.843708
+coordpnt: INFO: ra: 255.987
+coordpnt: INFO: dec: -37.843621
 coordpnt: INFO: roll: 0
 coordpnt: INFO: WCSdata structure:
 coordpnt: INFO: exists:  1
-coordpnt: INFO: xrefval: 255.98706
-coordpnt: INFO: yrefval: -37.843708
+coordpnt: INFO: xrefval: 255.987
+coordpnt: INFO: yrefval: -37.843621
 coordpnt: INFO: xrefpix: 1215.5
 coordpnt: INFO: yrefpix: 1215.5
 coordpnt: INFO: xinc:    -0.00049110668
 coordpnt: INFO: yinc:    0.00049110668
 coordpnt: INFO: rot:     0
 coordpnt: INFO: type:    -TAN
-coordpnt: INFO: Nominal quaternion (attitude):  0.89148794 -0.10956314 -0.053622618 0.43631387
+coordpnt: INFO: Nominal quaternion (attitude):  0.89148755 -0.10956356 -0.053622929 0.43631452
 coordpnt: INFO: Looking for MULTISEG transformation:
 coordpnt: INFO: lowsysnum, highsysnum: 2, 4
 coordpnt: INFO: startsysnum, stopsysnum: 4, 2
 coordpnt: INFO: START PARAMETER LIST:
-coordpnt: INFO: coordpnt 'input=255.9865523455100,-37.8441425920700' 'outfile=NONE' 'telescop=XRISM' 'instrume=RESOLVE' 'ra=255.987060426007' 'dec=-37.8437084692874' 'roll=88.5864157219025' 'ranom=255.987060426007' 'decnom=-37.8437084692874' 'rollnom=0.0' 'teldeffile=/Users/colinbourque/soft/caldb/data/xrism/resolve/bcf/teldef/xa_rsl_teldef_20190101v004.fits' 'startsys=RADEC' 'stopsys=DET' 'multisegpar=NULL' 'rawtodetseg=-1' 'pixeltest=CENTER' 'winoffsetx=0' 'winoffsety=0' 'outx=1215.5' 'outy=1215.50000000002' 'buffer=-1' 'clobber=yes' 'chatter=0' 'logfile=!DEFAULT' 'debug=NO' 'history=YES' 'mode=ql'
+coordpnt: INFO: coordpnt 'input=255.9865523455100,-37.8441425920700' 'outfile=NONE' 'telescop=XRISM' 'instrume=RESOLVE' 'ra=255.987000771149' 'dec=-37.8436209158709' 'roll=88.5863947220016' 'ranom=255.987000771149' 'decnom=-37.8436209158709' 'rollnom=0.0' 'teldeffile=/Users/colinbourque/soft/caldb/data/xrism/resolve/bcf/teldef/xa_rsl_teldef_20190101v004.fits' 'startsys=RADEC' 'stopsys=DET' 'multisegpar=NULL' 'rawtodetseg=-1' 'pixeltest=CENTER' 'winoffsetx=0' 'winoffsety=0' 'outx=3.44430945327638' 'outy=3.45356683194484' 'buffer=-1' 'clobber=yes' 'chatter=0' 'logfile=!DEFAULT' 'debug=NO' 'history=YES' 'mode=ql'
 coordpnt: INFO: END PARAMETER LIST
 coordpnt: INFO: POINT:  Starting X,Y: 255.98655, -37.844143
 coordpnt: INFO: startsysnum, stopsysnum: 4, 2
@@ -56,34 +56,34 @@ coordpnt: INFO: conv_to_higher=0, isys=0
 coordpnt: INFO: sys: 3  seg: 0
 coordpnt: INFO: xpix = 0
 coordpnt: INFO: ypix = 0
-coordpnt: INFO: wcs->xrefval = 255.98706
-coordpnt: INFO: wcs->yrefval = -37.843708
+coordpnt: INFO: wcs->xrefval = 255.987
+coordpnt: INFO: wcs->yrefval = -37.843621
 coordpnt: INFO: wcs->xrefpix = 1215.5
 coordpnt: INFO: wcs->yrefpix = 1215.5
 coordpnt: INFO: wcs->xinc -0.00049110668
 = coordpnt: INFO: wcs->yinc 0.00049110668
 = coordpnt: INFO: wcs->rot 0
-= coordpnt: INFO: xpix = 1216.317
-coordpnt: INFO: ypix = 1214.616
+= coordpnt: INFO: xpix = 1216.2211
+coordpnt: INFO: ypix = 1214.4378
 coordpnt: INFO: status = 0
 coordpnt: INFO: convert to higher (RADEC):  sys=3
-coordpnt: INFO: prev_x=255.98655; prev_y=-37.844143, x=1216.317, y=1214.616
+coordpnt: INFO: prev_x=255.98655; prev_y=-37.844143, x=1216.2211, y=1214.4378
 coordpnt: INFO: convert to lower (SKYATT):  sys=3
-coordpnt: INFO: q1->p[0]=0.71461652
-coordpnt: INFO: q1->p[1]=0.54413055
-coordpnt: INFO: q1->p[2]=-0.34307301
-coordpnt: INFO: q1->p[3]=0.27485648
-coordpnt: INFO: prev_x=1216.317; prev_y=1214.616, x=1214.6365, y=1214.6615
+coordpnt: INFO: q1->p[0]=0.71461664
+coordpnt: INFO: q1->p[1]=0.54412984
+coordpnt: INFO: q1->p[2]=-0.34307364
+coordpnt: INFO: q1->p[3]=0.27485679
+coordpnt: INFO: prev_x=1216.2211; prev_y=1214.4378, x=1214.4559, y=1214.753
 
-coordpnt: INFO: Finished with current conversion: x=1214.6365, y=1214.6615
+coordpnt: INFO: Finished with current conversion: x=1214.4559, y=1214.753
 coordpnt: INFO: conv_to_higher=0, isys=1
 coordpnt: INFO: sys: 2  seg: 0
 coordpnt: INFO: convert to lower (BASIC):
-coordpnt: INFO: prev_x=1214.6365, prev_y=1214.6615, x=3.45018, y=3.451623, sys=2
-coordpnt: INFO: Finished with current conversion: x=3.45018, y=3.451623
+coordpnt: INFO: prev_x=1214.4559, prev_y=1214.753, x=3.4397614, y=3.4569016, sys=2
+coordpnt: INFO: Finished with current conversion: x=3.4397614, y=3.4569016
 coordpnt: INFO: stopsys_is_telpol=0
 coordpnt: INFO: stopsys_is_telxy =0
 coordpnt: INFO: conv_to_higher_tel=0
-coordpnt: OUTX OUTY=    3.45017996     3.45162304
+coordpnt: OUTX OUTY=    3.43976136     3.45690162
 
-ENDLOG:   0.018989 s
+ENDLOG:   0.01958 s

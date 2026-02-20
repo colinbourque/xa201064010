@@ -1,5 +1,5 @@
-!xselect 12:58:19 19-Feb-2026
-session_xjaifh:XRISM > read events xa201064010rsl_p0px1000_cl.evt .
+!xselect 13:20:24 20-Feb-2026
+session_xjaifh:XRISM > read events xa201064010rsl-binII.evt .
  
  Notes: XSELECT set up for      XRISM
  Time keyword is TIME       in units of s
@@ -31,38 +31,40 @@ d = no pagewidth = 128 wrap = yes showunit = no tdisp = yes
  
  
         OBJECT      TELESCOP    INSTRUME    DETNAM      DATAMODE    DATE-OBS   
-         DATE-END
-      1 4U1700-37   XRISM       RESOLVE     PIXEL       PX_NORMAL   2025-02-10T
-12:55:52 2025-02-11T21:36:07
-session_xjaifh:XRISM-RESOLVE-PX_NORMAL > set image det
-session_xjaifh:XRISM-RESOLVE-PX_NORMAL > filter column "pixel=0:11,13:35"
-session_xjaifh:XRISM-RESOLVE-PX_NORMAL > filter GRADE "0:0"
-session_xjaifh:XRISM-RESOLVE-PX_NORMAL > extr spectrum
-entsout = NONE regionfile = NONE qdpfile = NONE fitsbinlc = NONE unbinlc = NONE
- phafile = session_xjaifh_hist.xsl imgfile = NONE timefile = NONE adjustgti=n
-o gstring = 0:0 usetpixrsel = no timeorder = no xcolf = DETX ycolf = DETY xco
-lh = NONE ycolh = NONE xfkey = TLMAX yfkey = TLMAX xhkey = TLMAX yhkey = TLMAX 
-phamax = TLMAX specbin = 1 binh = 1 binf = 1 binlc = 1.6000000E+01 tcol = TIM
-E ecol = PI ccol = NONE gcol = ITYPE polwcol = NONE gti = GTI events = EVENTS g
-titxt = session_xjaifh_ascii_out.xsl timeref = 40000.00 wtmapb = no stokes 
-= NONE gtinam = GTI exitnow = no clobber=yes
+              DATE-END
+      1 4U1700-37   XRISM       RESOLVE     PIXEL       PX_NORMAL   2025-02-11T
+01:48:02.1840 2025-02-11T21:33:53.8012
+session_xjaifh:XRISM-RESOLVE-PX_NORMAL > set binsize 120
+session_xjaifh:XRISM-RESOLVE-PX_NORMAL > extract curve
+ionfile = NONE qdpfile = NONE fitsbinlc = session_xjaifh_fits_curve.xsl lcthr
+esh = 8.0000000E-01 lctzero = yes xronwn = /Users/colinbourque/astrophysics/
+xray-data/4U-1700-377/XRISM/201064010/analysis/session_xjaifh_xronos_out.xsl u
+nbinlc = NONE phafile = NONE imgfile = NONE timefile = NONE adjustgti=no gstrin
+g = NONE usetpixrsel = no timeorder = no xcolf = X ycolf = Y xcolh = NONE ycolh
+ = NONE xfkey = TLMAX yfkey = TLMAX xhkey = TLMAX yhkey = TLMAX phamax = TLMAX 
+specbin = 1 binh = 1 binf = 1 binlc = 1.2000000E+02 tcol = TIME ecol = PI cco
+l = NONE gcol = ITYPE polwcol = NONE gti = GTI events = EVENTS gtitxt = sessio
+n_xjaifh_ascii_out.xsl timeref = 40000.00 wtmapb = no stokes = NONE gtinam =
+ GTI exitnow = no clobber=yes
 extractor v6.20    31 Jul 2025
  Getting FITS WCS Keywords
  Doing file: /Users/colinbourque/astrophysics/xray-data/4U-1700-377/XRISM/20106
-4010/analysis/xa201064010rsl_p0px1000_cl.evt
+4010/analysis/xa201064010rsl-binII.evt
           Total      Good    Bad: Time     Phase     Grade       Cut
-        1195191    723283            0         0    471908         0
+          71124     71124            0         0         0         0
 ===============================================================================
     Grand Total      Good    Bad: Time     Phase     Grade       Cut
-        1195191    723283            0         0    471908         0
-   in  58720.     seconds
- Spectrum         has   723283 counts for   12.32     counts/sec
-Keyword DATE-OBS has two values: '2025-02-10T11:46:04' and '2025-02-10T12:55:52
-'
-Keyword DATE-END has two values: '2025-02-11T22:09:04' and '2025-02-11T21:36:07
-'
- ... wrote the PHA data Extension
-_src.pi
-Wrote spectrum to xa201064010rsl_allpix_Hp_src.pi
-session_xjaifh:XRISM-RESOLVE-PX_NORMAL > quit
+          71124     71124            0         0         0         0
+   in  17367.     seconds
+ Fits light curve has  7.1124E+04 counts for   4.095     counts/sec
+ Thresholding removed significant counts
+ Try exposure=0.0 on the extract command in xselect
+ or lcthresh=0.0 if running extractor stand-alone
+ Thresholding removed more than half the bins
+ Try exposure=0.0 on the extract command in xselect
+ or lcthresh=0.0 if running extractor stand-alone
+0/analysis/session_xjaifh_fits_curve.xsl xparm=TIME yparm=RATE[ERROR] rows=-
+ device=/xs pltcmd=@xsl_pco.tmp offset=yes maxpts=1000000 binmode=DEFAULT sen
+secase=no
+PLT> quit
 > Save this session? >[no]

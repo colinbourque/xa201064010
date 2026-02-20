@@ -1,4 +1,4 @@
-STARTLOG: 2026/02/19 13:04:11
+STARTLOG: 2026/02/20 14:03:24
 EXECNAME: rslrmf
 RUNPATH:  /Users/colinbourque/astrophysics/xray-data/4U-1700-377/XRISM/201064010/analysis
 
@@ -12,8 +12,8 @@ rslrmf: INFO:    INSTRUMENT: RESOLVE
 rslrmf: INFO:    DETNAM:     -
 rslrmf: INFO:    FILTER:     -
 rslrmf: INFO:    CODENAME:   RMFPARAMS
-rslrmf: INFO:    START DATE: 2025-02-10
-rslrmf: INFO:    START TIME: 12:55:52
+rslrmf: INFO:    START DATE: 2025-02-11
+rslrmf: INFO:    START TIME: 03:29:25
 rslrmf: INFO:    STOP DATE:  -
 rslrmf: INFO:    STOP TIME:  -
 rslrmf: INFO:    EXPRESSION: -
@@ -26,10 +26,10 @@ rslrmf: INFO: Buffering /Users/colinbourque/soft/caldb/data/xrism/resolve/bcf/re
 rslrmf: INFO: EBOUND extension energy grid
 rslrmf: INFO: number of channels: 60000
 rslrmf: INFO: channel spacing = 0.0005
-rslrmf: INFO: Buffering 4U1700m377_fullobs_S_minproc.rmf[EBOUNDS], size=9360, overlap=0
-rslrmf: INFO: Buffering 4U1700m377_fullobs_S_minproc.rmf[MATRIX], size=3303, overlap=0
+rslrmf: INFO: Buffering xa201064010rsl-binIII.rmf[EBOUNDS], size=9360, overlap=0
+rslrmf: INFO: Buffering xa201064010rsl-binIII.rmf[MATRIX], size=3303, overlap=0
 rslrmf: INFO: START PARAMETER LIST:
-rslrmf: INFO: rslrmf 'infile=rslfrac.fits' 'outfileroot=4U1700m377_fullobs_S_minproc' 'outrsp=no' 'arfinfile=NONE' 'splitrmf=no' 'elcbinfac=32' 'pixel=0' 'resol=HP' 'secondaries=yes' 'time=2025-02-10T12:55:52' 'rmfparamfile=/Users/colinbourque/soft/caldb/data/xrism/resolve/bcf/response/xa_rsl_rmfparam_20190101v007.fits[0]' 'whichrmf=S' 'eminin=0.0' 'dein=0.5' 'nchanin=60000' 'useingrd=yes' 'eminout=0.0' 'deout=0.5' 'nchanout=60000' 'rmfthresh=1.0e-9' 'emincont=10.0' 'buffer=-1' 'clobber=yes' 'chatter=1' 'logfile=!DEFAULT' 'debug=no' 'history=yes' 'mode=h'
+rslrmf: INFO: rslrmf 'infile=rslfrac.fits' 'outfileroot=xa201064010rsl-binIII' 'outrsp=no' 'arfinfile=NONE' 'splitrmf=no' 'elcbinfac=32' 'pixel=0' 'resol=HP' 'secondaries=yes' 'time=2025-02-11T03:29:25.1840' 'rmfparamfile=/Users/colinbourque/soft/caldb/data/xrism/resolve/bcf/response/xa_rsl_rmfparam_20190101v007.fits[0]' 'whichrmf=S' 'eminin=0.0' 'dein=0.5' 'nchanin=60000' 'useingrd=yes' 'eminout=0.0' 'deout=0.5' 'nchanout=60000' 'rmfthresh=1.0e-9' 'emincont=10.0' 'buffer=-1' 'clobber=yes' 'chatter=1' 'logfile=!DEFAULT' 'debug=no' 'history=yes' 'mode=h'
 rslrmf: INFO: END PARAMETER LIST
 
 rslrmf: INFO: Interpolating line spread function parameters onto input energy grid
@@ -38,109 +38,109 @@ rslrmf: Completed 0 energy channels out of 60000
 rslrmf: INFO: Computing response for these pixels, resolutions and weights
 rslrmf: INFO: Pixel: 0
 rslrmf: INFO: Resolution: 0
-rslrmf: INFO: Weight: 0.0702373
+rslrmf: INFO: Weight: 0.106156
 rslrmf: INFO: Pixel: 1
 rslrmf: INFO: Resolution: 0
-rslrmf: INFO: Weight: 0.00764146
+rslrmf: INFO: Weight: 0.0080441
 rslrmf: INFO: Pixel: 2
 rslrmf: INFO: Resolution: 0
-rslrmf: INFO: Weight: 0.026328
+rslrmf: INFO: Weight: 0.0301384
 rslrmf: INFO: Pixel: 3
 rslrmf: INFO: Resolution: 0
-rslrmf: INFO: Weight: 0.00610028
+rslrmf: INFO: Weight: 0.00607182
 rslrmf: INFO: Pixel: 4
 rslrmf: INFO: Resolution: 0
-rslrmf: INFO: Weight: 0.0189777
+rslrmf: INFO: Weight: 0.0186005
 rslrmf: INFO: Pixel: 5
 rslrmf: INFO: Resolution: 0
-rslrmf: INFO: Weight: 0.00309658
+rslrmf: INFO: Weight: 0.00283164
 rslrmf: INFO: Pixel: 6
 rslrmf: INFO: Resolution: 0
-rslrmf: INFO: Weight: 0.00623248
+rslrmf: INFO: Weight: 0.00582294
 rslrmf: INFO: Pixel: 7
 rslrmf: INFO: Resolution: 0
-rslrmf: INFO: Weight: 0.0325371
+rslrmf: INFO: Weight: 0.0310823
 rslrmf: INFO: Pixel: 8
 rslrmf: INFO: Resolution: 0
-rslrmf: INFO: Weight: 0.00932822
+rslrmf: INFO: Weight: 0.00861701
 rslrmf: INFO: Pixel: 9
 rslrmf: INFO: Resolution: 0
-rslrmf: INFO: Weight: 0.00581413
+rslrmf: INFO: Weight: 0.00631131
 rslrmf: INFO: Pixel: 10
 rslrmf: INFO: Resolution: 0
-rslrmf: INFO: Weight: 0.023884
+rslrmf: INFO: Weight: 0.0271706
 rslrmf: INFO: Pixel: 11
 rslrmf: INFO: Resolution: 0
-rslrmf: INFO: Weight: 0.00746659
+rslrmf: INFO: Weight: 0.00720823
 rslrmf: INFO: Pixel: 13
 rslrmf: INFO: Resolution: 0
-rslrmf: INFO: Weight: 0.0190162
+rslrmf: INFO: Weight: 0.0181732
 rslrmf: INFO: Pixel: 14
 rslrmf: INFO: Resolution: 0
-rslrmf: INFO: Weight: 0.00694199
+rslrmf: INFO: Weight: 0.00613287
 rslrmf: INFO: Pixel: 15
 rslrmf: INFO: Resolution: 0
-rslrmf: INFO: Weight: 0.0301759
+rslrmf: INFO: Weight: 0.0292696
 rslrmf: INFO: Pixel: 16
 rslrmf: INFO: Resolution: 0
-rslrmf: INFO: Weight: 0.00696207
+rslrmf: INFO: Weight: 0.00626905
 rslrmf: INFO: Pixel: 17
 rslrmf: INFO: Resolution: 0
-rslrmf: INFO: Weight: 0.0687672
+rslrmf: INFO: Weight: 0.103442
 rslrmf: INFO: Pixel: 18
 rslrmf: INFO: Resolution: 0
-rslrmf: INFO: Weight: 0.0603134
+rslrmf: INFO: Weight: 0.0860245
 rslrmf: INFO: Pixel: 19
 rslrmf: INFO: Resolution: 0
-rslrmf: INFO: Weight: 0.00695621
+rslrmf: INFO: Weight: 0.00648976
 rslrmf: INFO: Pixel: 20
 rslrmf: INFO: Resolution: 0
-rslrmf: INFO: Weight: 0.0217923
+rslrmf: INFO: Weight: 0.022902
 rslrmf: INFO: Pixel: 21
 rslrmf: INFO: Resolution: 0
-rslrmf: INFO: Weight: 0.00373078
+rslrmf: INFO: Weight: 0.00409484
 rslrmf: INFO: Pixel: 22
 rslrmf: INFO: Resolution: 0
-rslrmf: INFO: Weight: 0.00969887
+rslrmf: INFO: Weight: 0.010594
 rslrmf: INFO: Pixel: 23
 rslrmf: INFO: Resolution: 0
-rslrmf: INFO: Weight: 0.0015713
+rslrmf: INFO: Weight: 0.00173749
 rslrmf: INFO: Pixel: 24
 rslrmf: INFO: Resolution: 0
-rslrmf: INFO: Weight: 0.00341954
+rslrmf: INFO: Weight: 0.00361116
 rslrmf: INFO: Pixel: 25
 rslrmf: INFO: Resolution: 0
-rslrmf: INFO: Weight: 0.0177277
+rslrmf: INFO: Weight: 0.0210659
 rslrmf: INFO: Pixel: 26
 rslrmf: INFO: Resolution: 0
-rslrmf: INFO: Weight: 0.00453149
+rslrmf: INFO: Weight: 0.00480392
 rslrmf: INFO: Pixel: 27
 rslrmf: INFO: Resolution: 0
-rslrmf: INFO: Weight: 0.00698215
+rslrmf: INFO: Weight: 0.00682317
 rslrmf: INFO: Pixel: 28
 rslrmf: INFO: Resolution: 0
-rslrmf: INFO: Weight: 0.018643
+rslrmf: INFO: Weight: 0.0198966
 rslrmf: INFO: Pixel: 29
 rslrmf: INFO: Resolution: 0
-rslrmf: INFO: Weight: 0.00283804
+rslrmf: INFO: Weight: 0.00312278
 rslrmf: INFO: Pixel: 30
 rslrmf: INFO: Resolution: 0
-rslrmf: INFO: Weight: 0.00154871
+rslrmf: INFO: Weight: 0.00156844
 rslrmf: INFO: Pixel: 31
 rslrmf: INFO: Resolution: 0
-rslrmf: INFO: Weight: 0.0082263
+rslrmf: INFO: Weight: 0.00893633
 rslrmf: INFO: Pixel: 32
 rslrmf: INFO: Resolution: 0
-rslrmf: INFO: Weight: 0.00317941
+rslrmf: INFO: Weight: 0.00345619
 rslrmf: INFO: Pixel: 33
 rslrmf: INFO: Resolution: 0
-rslrmf: INFO: Weight: 0.0180674
+rslrmf: INFO: Weight: 0.0210001
 rslrmf: INFO: Pixel: 34
 rslrmf: INFO: Resolution: 0
-rslrmf: INFO: Weight: 0.00564178
+rslrmf: INFO: Weight: 0.00656489
 rslrmf: INFO: Pixel: 35
 rslrmf: INFO: Resolution: 0
-rslrmf: INFO: Weight: 0.0607853
+rslrmf: INFO: Weight: 0.0893774
 rslrmf: Completed 1000 energy channels out of 60000
 rslrmf: Completed 2000 energy channels out of 60000
 rslrmf: Completed 3000 energy channels out of 60000
@@ -202,4 +202,4 @@ rslrmf: Completed 58000 energy channels out of 60000
 rslrmf: Completed 59000 energy channels out of 60000
 rslrmf: INFO: Processing completed.
 
-ENDLOG:   118.264 s
+ENDLOG:   161.099 s

@@ -1,7 +1,7 @@
-# STARTLOG: Thu Feb 19 13:06:17 2026
+# STARTLOG: Fri Feb 20 14:06:06 2026
 # EXECNAME: xaarfgen
 # RUNPATH:  /Users/colinbourque/astrophysics/xray-data/4U-1700-377/XRISM/201064010/analysis
-# CMDLINE:  xaarfgen xrtevtfile=raytrace_xa201064010rsl_p0px1000_ptsrc.fits source_ra=255.9865523455100 source_dec=-37.8441425920700 telescop=XRISM instrume=RESOLVE emapfile=xa201064010rsl_p0px1000.expo regmode=DET regionfile=src.reg sourcetype=POINT rmffile=4U1700m377_fullobs_S_minproc.rmf erange=0.3 18.0 2.0 8.0 outfile=4U1700m377_fullobs_S_minproc.arf numphoton=200000 minphoton=100 teldeffile=CALDB qefile=CALDB contamifile=CALDB obffile=CALDB fwfile=CALDB gatevalvefile=CALDB onaxisffile=CALDB onaxiscfile=CALDB mirrorfile=CALDB obstructfile=CALDB frontreffile=CALDB backreffile=CALDB pcolreffile=CALDB scatterfile=CALDB mode=h clobber=yes seed=7 imgfile=NONE
+# CMDLINE:  xaarfgen xrtevtfile=raytrace_xa201064010rsl-binIII.fits source_ra=255.9865523455100 source_dec=-37.8441425920700 telescop=XRISM instrume=RESOLVE emapfile=xa201064010rsl-binIII.expo regmode=DET regionfile=src.reg sourcetype=POINT rmffile=xa201064010rsl-binIII.rmf erange=0.3 18.0 2.0 8.0 outfile=xa201064010rsl-binIII.arf numphoton=200000 minphoton=100 teldeffile=CALDB qefile=CALDB contamifile=CALDB obffile=CALDB fwfile=CALDB gatevalvefile=CALDB onaxisffile=CALDB onaxiscfile=CALDB mirrorfile=CALDB obstructfile=CALDB frontreffile=CALDB backreffile=CALDB pcolreffile=CALDB scatterfile=CALDB mode=h clobber=yes seed=7 imgfile=NONE
 INFO   ::Starting.
 INFO   ::
 INFO   ::===========================================================
@@ -30,75 +30,75 @@ INFO   ::verification OK: /Users/colinbourque/soft/caldb/data/xrism/resolve/bcf/
 INFO   ::
 INFO   :: 
 INFO   ::START PARAMETER list for xaarfgen
-INFO   :: xaarfgen 'xrtevtfile=raytrace_xa201064010rsl_p0px1000_ptsrc.fits' 'source_ra=255.9865523455100' 'source_dec=-37.8441425920700' 'nompntpars=43.0 65.0 130.0 43.0 65.0' 'telescop=XRISM' 'instrume=RESOLVE' 'teldeffile=CALDB' 'emapfile=xa201064010rsl_p0px1000.expo' 'qefile=CALDB' 'obffile=CALDB' 'fwfile=CALDB' 'contamifile=CALDB' 'abund=1.0' 'cols=0.0' 'covfac=1.0' 'gatevalvefile=CALDB' 'rmffile=4U1700m377_fullobs_S_minproc.rmf' 'erange=0.3 18.0 2.0 8.0' 'onaxisffile=CALDB' 'onaxiscfile=CALDB' 'polydeg=DEFAULT' 'outfile=4U1700m377_fullobs_S_minproc.arf' 'regmode=DET' 'regionfile=src.reg' 'rslgapreg=no' 'doublesonly=no' 'mirrorfile=CALDB' 'obstructfile=CALDB' 'frontreffile=CALDB' 'backreffile=CALDB' 'pcolreffile=CALDB' 'scatterfile=CALDB' 'numphoton=200000' 'minphoton=100' 'sourcetype=POINT' 'betapars=0.50 0.60 5.0' 'flatradius=10.0' 'imgfile=NONE' 'auxtransfile=NONE' 'seed=7' 'cleanup=NO' 'clobber=YES' 'chatter=1' 'logfile=!DEFAULT' 'debug=NO' 'history=YES' 'mode=h'
+INFO   :: xaarfgen 'xrtevtfile=raytrace_xa201064010rsl-binIII.fits' 'source_ra=255.9865523455100' 'source_dec=-37.8441425920700' 'nompntpars=43.0 65.0 130.0 43.0 65.0' 'telescop=XRISM' 'instrume=RESOLVE' 'teldeffile=CALDB' 'emapfile=xa201064010rsl-binIII.expo' 'qefile=CALDB' 'obffile=CALDB' 'fwfile=CALDB' 'contamifile=CALDB' 'abund=1.0' 'cols=0.0' 'covfac=1.0' 'gatevalvefile=CALDB' 'rmffile=xa201064010rsl-binIII.rmf' 'erange=0.3 18.0 2.0 8.0' 'onaxisffile=CALDB' 'onaxiscfile=CALDB' 'polydeg=DEFAULT' 'outfile=xa201064010rsl-binIII.arf' 'regmode=DET' 'regionfile=src.reg' 'rslgapreg=no' 'doublesonly=no' 'mirrorfile=CALDB' 'obstructfile=CALDB' 'frontreffile=CALDB' 'backreffile=CALDB' 'pcolreffile=CALDB' 'scatterfile=CALDB' 'numphoton=200000' 'minphoton=100' 'sourcetype=POINT' 'betapars=0.50 0.60 5.0' 'flatradius=10.0' 'imgfile=NONE' 'auxtransfile=NONE' 'seed=7' 'cleanup=NO' 'clobber=YES' 'chatter=1' 'logfile=!DEFAULT' 'debug=NO' 'history=YES' 'mode=h'
 INFO   ::END PARAMETER list for xaarfgen
 INFO   :: 
 INFO   ::
-INFO   ::FTOOLS CMD: ftlist 'xa201064010rsl_p0px1000.expo' 'H'
+INFO   ::FTOOLS CMD: ftlist 'xa201064010rsl-binIII.expo' 'H'
 INFO   ::
 INFO   ::Column being read: RANOMXP
-INFO   ::Filename / Extension xa201064010rsl_p0px1000.expo[OFFAXISHIST] 
+INFO   ::Filename / Extension xa201064010rsl-binIII.expo[OFFAXISHIST] 
 INFO   ::
-INFO   ::FTOOLS CMD: ftlist 'xa201064010rsl_p0px1000.expo[OFFAXISHIST]' 'T' 'columns=RANOMXP' 'rows=-' 'rownum=No' 'colheader=No'
+INFO   ::FTOOLS CMD: ftlist 'xa201064010rsl-binIII.expo[OFFAXISHIST]' 'T' 'columns=RANOMXP' 'rows=-' 'rownum=No' 'colheader=No'
 INFO   ::
 INFO   ::Read 1 from column RANOMXP 
 INFO   ::Column being read: DECNOMXP
-INFO   ::Filename / Extension xa201064010rsl_p0px1000.expo[OFFAXISHIST] 
+INFO   ::Filename / Extension xa201064010rsl-binIII.expo[OFFAXISHIST] 
 INFO   ::
-INFO   ::FTOOLS CMD: ftlist 'xa201064010rsl_p0px1000.expo[OFFAXISHIST]' 'T' 'columns=DECNOMXP' 'rows=-' 'rownum=No' 'colheader=No'
+INFO   ::FTOOLS CMD: ftlist 'xa201064010rsl-binIII.expo[OFFAXISHIST]' 'T' 'columns=DECNOMXP' 'rows=-' 'rownum=No' 'colheader=No'
 INFO   ::
 INFO   ::Read 1 from column DECNOMXP 
 INFO   ::Column being read: PA_NOMXP
-INFO   ::Filename / Extension xa201064010rsl_p0px1000.expo[OFFAXISHIST] 
+INFO   ::Filename / Extension xa201064010rsl-binIII.expo[OFFAXISHIST] 
 INFO   ::
-INFO   ::FTOOLS CMD: ftlist 'xa201064010rsl_p0px1000.expo[OFFAXISHIST]' 'T' 'columns=PA_NOMXP' 'rows=-' 'rownum=No' 'colheader=No'
+INFO   ::FTOOLS CMD: ftlist 'xa201064010rsl-binIII.expo[OFFAXISHIST]' 'T' 'columns=PA_NOMXP' 'rows=-' 'rownum=No' 'colheader=No'
 INFO   ::
 INFO   ::Read 1 from column PA_NOMXP 
 INFO   ::Column being read: RA_PNT
-INFO   ::Filename / Extension xa201064010rsl_p0px1000.expo[OFFAXISHIST] 
+INFO   ::Filename / Extension xa201064010rsl-binIII.expo[OFFAXISHIST] 
 INFO   ::
-INFO   ::FTOOLS CMD: ftlist 'xa201064010rsl_p0px1000.expo[OFFAXISHIST]' 'T' 'columns=RA_PNT' 'rows=-' 'rownum=No' 'colheader=No'
+INFO   ::FTOOLS CMD: ftlist 'xa201064010rsl-binIII.expo[OFFAXISHIST]' 'T' 'columns=RA_PNT' 'rows=-' 'rownum=No' 'colheader=No'
 INFO   ::
 INFO   ::Read 1 from column RA_PNT 
 INFO   ::Column being read: DEC_PNT
-INFO   ::Filename / Extension xa201064010rsl_p0px1000.expo[OFFAXISHIST] 
+INFO   ::Filename / Extension xa201064010rsl-binIII.expo[OFFAXISHIST] 
 INFO   ::
-INFO   ::FTOOLS CMD: ftlist 'xa201064010rsl_p0px1000.expo[OFFAXISHIST]' 'T' 'columns=DEC_PNT' 'rows=-' 'rownum=No' 'colheader=No'
+INFO   ::FTOOLS CMD: ftlist 'xa201064010rsl-binIII.expo[OFFAXISHIST]' 'T' 'columns=DEC_PNT' 'rows=-' 'rownum=No' 'colheader=No'
 INFO   ::
 INFO   ::Read 1 from column DEC_PNT 
 INFO   ::Column being read: OFFAXISLO
-INFO   ::Filename / Extension xa201064010rsl_p0px1000.expo[OFFAXISHIST] 
+INFO   ::Filename / Extension xa201064010rsl-binIII.expo[OFFAXISHIST] 
 INFO   ::
-INFO   ::FTOOLS CMD: ftlist 'xa201064010rsl_p0px1000.expo[OFFAXISHIST]' 'T' 'columns=OFFAXISLO' 'rows=-' 'rownum=No' 'colheader=No'
+INFO   ::FTOOLS CMD: ftlist 'xa201064010rsl-binIII.expo[OFFAXISHIST]' 'T' 'columns=OFFAXISLO' 'rows=-' 'rownum=No' 'colheader=No'
 INFO   ::
 INFO   ::Read 1 from column OFFAXISLO 
 INFO   ::Column being read: OFFAXISHI
-INFO   ::Filename / Extension xa201064010rsl_p0px1000.expo[OFFAXISHIST] 
+INFO   ::Filename / Extension xa201064010rsl-binIII.expo[OFFAXISHIST] 
 INFO   ::
-INFO   ::FTOOLS CMD: ftlist 'xa201064010rsl_p0px1000.expo[OFFAXISHIST]' 'T' 'columns=OFFAXISHI' 'rows=-' 'rownum=No' 'colheader=No'
+INFO   ::FTOOLS CMD: ftlist 'xa201064010rsl-binIII.expo[OFFAXISHIST]' 'T' 'columns=OFFAXISHI' 'rows=-' 'rownum=No' 'colheader=No'
 INFO   ::
 INFO   ::Read 1 from column OFFAXISHI 
 INFO   ::Column being read: TIMEINTERVAL
-INFO   ::Filename / Extension xa201064010rsl_p0px1000.expo[OFFAXISHIST] 
+INFO   ::Filename / Extension xa201064010rsl-binIII.expo[OFFAXISHIST] 
 INFO   ::
-INFO   ::FTOOLS CMD: ftlist 'xa201064010rsl_p0px1000.expo[OFFAXISHIST]' 'T' 'columns=TIMEINTERVAL' 'rows=-' 'rownum=No' 'colheader=No'
+INFO   ::FTOOLS CMD: ftlist 'xa201064010rsl-binIII.expo[OFFAXISHIST]' 'T' 'columns=TIMEINTERVAL' 'rows=-' 'rownum=No' 'colheader=No'
 INFO   ::
 INFO   ::Read 1 from column TIMEINTERVAL 
 INFO   ::Column being read: FRACTION
-INFO   ::Filename / Extension xa201064010rsl_p0px1000.expo[OFFAXISHIST] 
+INFO   ::Filename / Extension xa201064010rsl-binIII.expo[OFFAXISHIST] 
 INFO   ::
-INFO   ::FTOOLS CMD: ftlist 'xa201064010rsl_p0px1000.expo[OFFAXISHIST]' 'T' 'columns=FRACTION' 'rows=-' 'rownum=No' 'colheader=No'
+INFO   ::FTOOLS CMD: ftlist 'xa201064010rsl-binIII.expo[OFFAXISHIST]' 'T' 'columns=FRACTION' 'rows=-' 'rownum=No' 'colheader=No'
 INFO   ::
 INFO   ::Read 1 from column FRACTION 
 INFO   ::
-INFO   ::FTOOLS CMD: coordpnt 'input=255.9865523455100,-37.8441425920700' 'outfile=NONE' 'telescop=XRISM' 'instrume=RESOLVE' 'teldeffile=CALDB' 'startsys=RADEC' 'stopsys=DET' 'ra=255.987060426007' 'dec=-37.8437084692874' 'roll=88.5864157219025' 'ranom=255.987060426007' 'decnom=-37.8437084692874' 'clobber=yes' 'chatter=0'
+INFO   ::FTOOLS CMD: coordpnt 'input=255.9865523455100,-37.8441425920700' 'outfile=NONE' 'telescop=XRISM' 'instrume=RESOLVE' 'teldeffile=CALDB' 'startsys=RADEC' 'stopsys=DET' 'ra=255.987000771149' 'dec=-37.8436209158709' 'roll=88.5863947220016' 'ranom=255.987000771149' 'decnom=-37.8436209158709' 'clobber=yes' 'chatter=0'
 INFO   ::
 INFO   ::FTOOLS CMD: pget 'coordpnt' 'outx'
-INFO   ::3.45017996123458
+INFO   ::3.439761359706
 INFO   ::
 INFO   ::
 INFO   ::FTOOLS CMD: pget 'coordpnt' 'outy'
-INFO   ::3.45162303933733
+INFO   ::3.45690162039712
 INFO   ::
 INFO   ::Column being read: ENERGY
 INFO   ::Filename / Extension /Users/colinbourque/soft/caldb/data/xrism/resolve/bcf/mirror/xa_rsl_telarea_20190101v002.fits[2] 
@@ -233,7 +233,7 @@ INFO   ::  1 columns X 22 rows
 INFO   ::  Rows to be deleted = 22
 INFO   ::
 INFO   ::
-INFO   ::FTOOLS CMD: xrtraytrace 'instrume=RESOLVE' 'telescop=XRISM' 'mode=h' 'mirrorfile=CALDB' 'obstructfile=CALDB' 'frontreffile=CALDB' 'backreffile=CALDB' 'pcolreffile=CALDB' 'scatterfile=CALDB' 'numphoton=200000' 'energy=arfgencgrid.fits[ENERGYGRID]' 'seed=7' 'misalign=1 1 1 1 1 1' 'transmode=ALL' 'scattermode=ALL' 'source=POINT' 'betapars=0.50 0.60 5.0' 'flatradius=10.0' 'diagpars=1 1 1 1 1' 'offaxis= 0.22' 'roll= -90.69' 'annulus=-1 10000 0 360.0' 'rectangle = 0 0 -100 -100' 'outeafile=NONE' 'outpsffile=NONE' 'psfpars=1 100 15' 'resultsplanez=0.0' 'resplaneonly=YES' 'outphistfile=raytrace_xa201064010rsl_p0px1000_ptsrc.fits' 'phisttype=BRIEF' 'externobjects=ALL' 'fastmode=YES' 'clobber=NO' 'chatter=1' 'logfile=NONE' 'history=YES'
+INFO   ::FTOOLS CMD: xrtraytrace 'instrume=RESOLVE' 'telescop=XRISM' 'mode=h' 'mirrorfile=CALDB' 'obstructfile=CALDB' 'frontreffile=CALDB' 'backreffile=CALDB' 'pcolreffile=CALDB' 'scatterfile=CALDB' 'numphoton=200000' 'energy=arfgencgrid.fits[ENERGYGRID]' 'seed=7' 'misalign=1 1 1 1 1 1' 'transmode=ALL' 'scattermode=ALL' 'source=POINT' 'betapars=0.50 0.60 5.0' 'flatradius=10.0' 'diagpars=1 1 1 1 1' 'offaxis= 0.22' 'roll= -89.31' 'annulus=-1 10000 0 360.0' 'rectangle = 0 0 -100 -100' 'outeafile=NONE' 'outpsffile=NONE' 'psfpars=1 100 15' 'resultsplanez=0.0' 'resplaneonly=YES' 'outphistfile=raytrace_xa201064010rsl-binIII.fits' 'phisttype=BRIEF' 'externobjects=ALL' 'fastmode=YES' 'clobber=NO' 'chatter=1' 'logfile=NONE' 'history=YES'
 INFO   ::xrtraytrace: ************************************
 INFO   ::xrtraytrace:          START XRTRAYTRACE          
 INFO   ::xrtraytrace: ************************************
@@ -242,7 +242,7 @@ INFO   ::xrtraytrace: Setting up telescope structure
 INFO   ::xrtraytrace: Setting up misalignment transformations
 INFO   ::xrtraytrace: Opening reftrans file 
 INFO   ::xrtraytrace: Beginning raytracing
-INFO   ::xrtraytrace: Starting run for azimuthal angle = 90.69 degrees, off-axis angle = 0.22 arcmin
+INFO   ::xrtraytrace: Starting run for azimuthal angle = 89.31 degrees, off-axis angle = 0.22 arcmin
 INFO   ::xrtraytrace: Completed 10% (420000 photons)
 INFO   ::xrtraytrace: Completed 20% (840000 photons)
 INFO   ::xrtraytrace: Completed 30% (1260000 photons)
@@ -258,9 +258,9 @@ INFO   ::xrtraytrace:           END XRTRAYTRACE
 INFO   ::xrtraytrace: ************************************
 INFO   ::
 INFO   ::
-INFO   ::FTOOLS CMD: xaxmaarfgen 'clobber=yes' 'mode=h' 'telescop=XRISM' 'instrume=RESOLVE' 'emapfile=xa201064010rsl_p0px1000.expo' 'qefile=CALDB' 'obffile=CALDB' 'fwfile=CALDB' 'contamifile=CALDB' 'abund=1.0' 'cols=0.0' 'covfac=1.0' 'gatevalvefile=CALDB' 'rmffile=4U1700m377_fullobs_S_minproc.rmf' 'onaxisffile=CALDB' 'onaxiscfile=/Users/colinbourque/soft/caldb/data/xrism/resolve/bcf/mirror/xa_rsl_telarea_20190101v002.fits[2]' 'polydeg=DEFAULT' 'regionfile=@xaarfgen_region.lis' 'rslgapreg=no' 'doublesonly=no' 'xrtevtfile=raytrace_xa201064010rsl_p0px1000_ptsrc.fits' 'auxtransfile=NONE' 'outfile=4U1700m377_fullobs_S_minproc.arf' 'minphoton=100'
-INFO   ::xaxmaarfgen: Fraction of PSF in Detector Area = 0.837721
-INFO   ::xaxmaarfgen: Fraction of PSF inside Region = 0.811304
+INFO   ::FTOOLS CMD: xaxmaarfgen 'clobber=yes' 'mode=h' 'telescop=XRISM' 'instrume=RESOLVE' 'emapfile=xa201064010rsl-binIII.expo' 'qefile=CALDB' 'obffile=CALDB' 'fwfile=CALDB' 'contamifile=CALDB' 'abund=1.0' 'cols=0.0' 'covfac=1.0' 'gatevalvefile=CALDB' 'rmffile=xa201064010rsl-binIII.rmf' 'onaxisffile=CALDB' 'onaxiscfile=/Users/colinbourque/soft/caldb/data/xrism/resolve/bcf/mirror/xa_rsl_telarea_20190101v002.fits[2]' 'polydeg=DEFAULT' 'regionfile=@xaarfgen_region.lis' 'rslgapreg=no' 'doublesonly=no' 'xrtevtfile=raytrace_xa201064010rsl-binIII.fits' 'auxtransfile=NONE' 'outfile=xa201064010rsl-binIII.arf' 'minphoton=100'
+INFO   ::xaxmaarfgen: Fraction of PSF in Detector Area = 0.837579
+INFO   ::xaxmaarfgen: Fraction of PSF inside Region = 0.811277
 INFO   ::
 INFO   ::
 INFO   ::===========================================================
@@ -270,4 +270,4 @@ INFO   :: Exit with no errors
 INFO   ::===========================================================
 INFO   ::
 INFO   ::Finished.
-# ENDLOG: Thu Feb 19 13:22:24 2026
+# ENDLOG: Fri Feb 20 14:22:06 2026
