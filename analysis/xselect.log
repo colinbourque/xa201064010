@@ -1,0 +1,68 @@
+!xselect 12:58:19 19-Feb-2026
+session_xjaifh:XRISM > read events xa201064010rsl_p0px1000_cl.evt .
+ 
+ Notes: XSELECT set up for      XRISM
+ Time keyword is TIME       in units of s
+ Default timing binsize =   16.000
+ 
+Setting...
+ Image  keywords   = X          Y           with binning =    1
+ Energy keyword   = PI                     with binning =    1
+ 
+Getting Min and Max for Energy Column...
+Got min and max for PI:     0  59999
+ 
+Got the minimum time resolution of the read data:  0.50000E-05
+MJDREF =  5.8484000800741E+04 with TIMESYS = TT
+ Number of files read in:            1
+10/analysis/session_xjaifh_obscat.tmp outfile=/Users/colinbourque/astrophysic
+s/xray-data/4U-1700-377/XRISM/201064010/analysis/session_xjaifh_read_cat.xsl 
+keywords=@/Users/colinbourque/astrophysics/xray-data/4U-1700-377/XRISM/20106401
+0/analysis/session_xjaifh_obslist.def maxlen=11 minlen=0 iform=I8 eform=E8.2
+ quiet=yes omit=no
+******************** Observation Catalogue ********************
+ 
+Data Directory is: /Users/colinbourque/astrophysics/xray-data/4U-1700-377/XRISM
+/201064010/analysis/
+HK Directory is: /Users/colinbourque/astrophysics/xray-data/4U-1700-377/XRISM/2
+01064010/analysis/
+sis/session_xjaifh_read_cat.xsl STDOUT @session_xjaifh_display.def - prhea
+d = no pagewidth = 128 wrap = yes showunit = no tdisp = yes
+ 
+ 
+        OBJECT      TELESCOP    INSTRUME    DETNAM      DATAMODE    DATE-OBS   
+         DATE-END
+      1 4U1700-37   XRISM       RESOLVE     PIXEL       PX_NORMAL   2025-02-10T
+12:55:52 2025-02-11T21:36:07
+session_xjaifh:XRISM-RESOLVE-PX_NORMAL > set image det
+session_xjaifh:XRISM-RESOLVE-PX_NORMAL > filter column "pixel=0:11,13:35"
+session_xjaifh:XRISM-RESOLVE-PX_NORMAL > filter GRADE "0:0"
+session_xjaifh:XRISM-RESOLVE-PX_NORMAL > extr spectrum
+entsout = NONE regionfile = NONE qdpfile = NONE fitsbinlc = NONE unbinlc = NONE
+ phafile = session_xjaifh_hist.xsl imgfile = NONE timefile = NONE adjustgti=n
+o gstring = 0:0 usetpixrsel = no timeorder = no xcolf = DETX ycolf = DETY xco
+lh = NONE ycolh = NONE xfkey = TLMAX yfkey = TLMAX xhkey = TLMAX yhkey = TLMAX 
+phamax = TLMAX specbin = 1 binh = 1 binf = 1 binlc = 1.6000000E+01 tcol = TIM
+E ecol = PI ccol = NONE gcol = ITYPE polwcol = NONE gti = GTI events = EVENTS g
+titxt = session_xjaifh_ascii_out.xsl timeref = 40000.00 wtmapb = no stokes 
+= NONE gtinam = GTI exitnow = no clobber=yes
+extractor v6.20    31 Jul 2025
+ Getting FITS WCS Keywords
+ Doing file: /Users/colinbourque/astrophysics/xray-data/4U-1700-377/XRISM/20106
+4010/analysis/xa201064010rsl_p0px1000_cl.evt
+          Total      Good    Bad: Time     Phase     Grade       Cut
+        1195191    723283            0         0    471908         0
+===============================================================================
+    Grand Total      Good    Bad: Time     Phase     Grade       Cut
+        1195191    723283            0         0    471908         0
+   in  58720.     seconds
+ Spectrum         has   723283 counts for   12.32     counts/sec
+Keyword DATE-OBS has two values: '2025-02-10T11:46:04' and '2025-02-10T12:55:52
+'
+Keyword DATE-END has two values: '2025-02-11T22:09:04' and '2025-02-11T21:36:07
+'
+ ... wrote the PHA data Extension
+_src.pi
+Wrote spectrum to xa201064010rsl_allpix_Hp_src.pi
+session_xjaifh:XRISM-RESOLVE-PX_NORMAL > quit
+> Save this session? >[no]

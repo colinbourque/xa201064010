@@ -1,0 +1,205 @@
+STARTLOG: 2026/02/19 13:04:11
+EXECNAME: rslrmf
+RUNPATH:  /Users/colinbourque/astrophysics/xray-data/4U-1700-377/XRISM/201064010/analysis
+
+rslrmf: INFO: Searching CALDB for RMF parameter file file
+rslrmf: INFO: $CALDB=/Users/colinbourque/soft/caldb
+rslrmf: INFO: $CALDBCONFIG=/Users/colinbourque/soft/caldb/software/tools/caldb.config
+rslrmf: INFO: $CALDBALIAS=/Users/colinbourque/soft/caldb/software/tools/alias_config.fits
+rslrmf: INFO: Querying CALDB with these parameters: 
+rslrmf: INFO:    TELESCOPE:  XRISM
+rslrmf: INFO:    INSTRUMENT: RESOLVE
+rslrmf: INFO:    DETNAM:     -
+rslrmf: INFO:    FILTER:     -
+rslrmf: INFO:    CODENAME:   RMFPARAMS
+rslrmf: INFO:    START DATE: 2025-02-10
+rslrmf: INFO:    START TIME: 12:55:52
+rslrmf: INFO:    STOP DATE:  -
+rslrmf: INFO:    STOP TIME:  -
+rslrmf: INFO:    EXPRESSION: -
+rslrmf: INFO: CALDB RMF parameter file file: /Users/colinbourque/soft/caldb/data/xrism/resolve/bcf/response/xa_rsl_rmfparam_20190101v007.fits[0]
+rslrmf: INFO: Using Mp for Ms.
+rslrmf: INFO: Using Lp for Ls.
+rslrmf: INFO: Buffering rslfrac.fits[RSLFRAC], size=11232, overlap=0
+rslrmf: INFO: Buffering /Users/colinbourque/soft/caldb/data/xrism/resolve/bcf/response/xa_rsl_rmfparam_20190101v007.fits[PIXELINDEX], size=11232, overlap=0
+rslrmf: INFO: Buffering /Users/colinbourque/soft/caldb/data/xrism/resolve/bcf/response/xa_rsl_rmfparam_20190101v007.fits[GAUSFWHM1], size=758, overlap=0
+rslrmf: INFO: EBOUND extension energy grid
+rslrmf: INFO: number of channels: 60000
+rslrmf: INFO: channel spacing = 0.0005
+rslrmf: INFO: Buffering 4U1700m377_fullobs_S_minproc.rmf[EBOUNDS], size=9360, overlap=0
+rslrmf: INFO: Buffering 4U1700m377_fullobs_S_minproc.rmf[MATRIX], size=3303, overlap=0
+rslrmf: INFO: START PARAMETER LIST:
+rslrmf: INFO: rslrmf 'infile=rslfrac.fits' 'outfileroot=4U1700m377_fullobs_S_minproc' 'outrsp=no' 'arfinfile=NONE' 'splitrmf=no' 'elcbinfac=32' 'pixel=0' 'resol=HP' 'secondaries=yes' 'time=2025-02-10T12:55:52' 'rmfparamfile=/Users/colinbourque/soft/caldb/data/xrism/resolve/bcf/response/xa_rsl_rmfparam_20190101v007.fits[0]' 'whichrmf=S' 'eminin=0.0' 'dein=0.5' 'nchanin=60000' 'useingrd=yes' 'eminout=0.0' 'deout=0.5' 'nchanout=60000' 'rmfthresh=1.0e-9' 'emincont=10.0' 'buffer=-1' 'clobber=yes' 'chatter=1' 'logfile=!DEFAULT' 'debug=no' 'history=yes' 'mode=h'
+rslrmf: INFO: END PARAMETER LIST
+
+rslrmf: INFO: Interpolating line spread function parameters onto input energy grid
+rslrmf: INFO: Calculating response matrix elements
+rslrmf: Completed 0 energy channels out of 60000
+rslrmf: INFO: Computing response for these pixels, resolutions and weights
+rslrmf: INFO: Pixel: 0
+rslrmf: INFO: Resolution: 0
+rslrmf: INFO: Weight: 0.0702373
+rslrmf: INFO: Pixel: 1
+rslrmf: INFO: Resolution: 0
+rslrmf: INFO: Weight: 0.00764146
+rslrmf: INFO: Pixel: 2
+rslrmf: INFO: Resolution: 0
+rslrmf: INFO: Weight: 0.026328
+rslrmf: INFO: Pixel: 3
+rslrmf: INFO: Resolution: 0
+rslrmf: INFO: Weight: 0.00610028
+rslrmf: INFO: Pixel: 4
+rslrmf: INFO: Resolution: 0
+rslrmf: INFO: Weight: 0.0189777
+rslrmf: INFO: Pixel: 5
+rslrmf: INFO: Resolution: 0
+rslrmf: INFO: Weight: 0.00309658
+rslrmf: INFO: Pixel: 6
+rslrmf: INFO: Resolution: 0
+rslrmf: INFO: Weight: 0.00623248
+rslrmf: INFO: Pixel: 7
+rslrmf: INFO: Resolution: 0
+rslrmf: INFO: Weight: 0.0325371
+rslrmf: INFO: Pixel: 8
+rslrmf: INFO: Resolution: 0
+rslrmf: INFO: Weight: 0.00932822
+rslrmf: INFO: Pixel: 9
+rslrmf: INFO: Resolution: 0
+rslrmf: INFO: Weight: 0.00581413
+rslrmf: INFO: Pixel: 10
+rslrmf: INFO: Resolution: 0
+rslrmf: INFO: Weight: 0.023884
+rslrmf: INFO: Pixel: 11
+rslrmf: INFO: Resolution: 0
+rslrmf: INFO: Weight: 0.00746659
+rslrmf: INFO: Pixel: 13
+rslrmf: INFO: Resolution: 0
+rslrmf: INFO: Weight: 0.0190162
+rslrmf: INFO: Pixel: 14
+rslrmf: INFO: Resolution: 0
+rslrmf: INFO: Weight: 0.00694199
+rslrmf: INFO: Pixel: 15
+rslrmf: INFO: Resolution: 0
+rslrmf: INFO: Weight: 0.0301759
+rslrmf: INFO: Pixel: 16
+rslrmf: INFO: Resolution: 0
+rslrmf: INFO: Weight: 0.00696207
+rslrmf: INFO: Pixel: 17
+rslrmf: INFO: Resolution: 0
+rslrmf: INFO: Weight: 0.0687672
+rslrmf: INFO: Pixel: 18
+rslrmf: INFO: Resolution: 0
+rslrmf: INFO: Weight: 0.0603134
+rslrmf: INFO: Pixel: 19
+rslrmf: INFO: Resolution: 0
+rslrmf: INFO: Weight: 0.00695621
+rslrmf: INFO: Pixel: 20
+rslrmf: INFO: Resolution: 0
+rslrmf: INFO: Weight: 0.0217923
+rslrmf: INFO: Pixel: 21
+rslrmf: INFO: Resolution: 0
+rslrmf: INFO: Weight: 0.00373078
+rslrmf: INFO: Pixel: 22
+rslrmf: INFO: Resolution: 0
+rslrmf: INFO: Weight: 0.00969887
+rslrmf: INFO: Pixel: 23
+rslrmf: INFO: Resolution: 0
+rslrmf: INFO: Weight: 0.0015713
+rslrmf: INFO: Pixel: 24
+rslrmf: INFO: Resolution: 0
+rslrmf: INFO: Weight: 0.00341954
+rslrmf: INFO: Pixel: 25
+rslrmf: INFO: Resolution: 0
+rslrmf: INFO: Weight: 0.0177277
+rslrmf: INFO: Pixel: 26
+rslrmf: INFO: Resolution: 0
+rslrmf: INFO: Weight: 0.00453149
+rslrmf: INFO: Pixel: 27
+rslrmf: INFO: Resolution: 0
+rslrmf: INFO: Weight: 0.00698215
+rslrmf: INFO: Pixel: 28
+rslrmf: INFO: Resolution: 0
+rslrmf: INFO: Weight: 0.018643
+rslrmf: INFO: Pixel: 29
+rslrmf: INFO: Resolution: 0
+rslrmf: INFO: Weight: 0.00283804
+rslrmf: INFO: Pixel: 30
+rslrmf: INFO: Resolution: 0
+rslrmf: INFO: Weight: 0.00154871
+rslrmf: INFO: Pixel: 31
+rslrmf: INFO: Resolution: 0
+rslrmf: INFO: Weight: 0.0082263
+rslrmf: INFO: Pixel: 32
+rslrmf: INFO: Resolution: 0
+rslrmf: INFO: Weight: 0.00317941
+rslrmf: INFO: Pixel: 33
+rslrmf: INFO: Resolution: 0
+rslrmf: INFO: Weight: 0.0180674
+rslrmf: INFO: Pixel: 34
+rslrmf: INFO: Resolution: 0
+rslrmf: INFO: Weight: 0.00564178
+rslrmf: INFO: Pixel: 35
+rslrmf: INFO: Resolution: 0
+rslrmf: INFO: Weight: 0.0607853
+rslrmf: Completed 1000 energy channels out of 60000
+rslrmf: Completed 2000 energy channels out of 60000
+rslrmf: Completed 3000 energy channels out of 60000
+rslrmf: Completed 4000 energy channels out of 60000
+rslrmf: Completed 5000 energy channels out of 60000
+rslrmf: Completed 6000 energy channels out of 60000
+rslrmf: Completed 7000 energy channels out of 60000
+rslrmf: Completed 8000 energy channels out of 60000
+rslrmf: Completed 9000 energy channels out of 60000
+rslrmf: Completed 10000 energy channels out of 60000
+rslrmf: Completed 11000 energy channels out of 60000
+rslrmf: Completed 12000 energy channels out of 60000
+rslrmf: Completed 13000 energy channels out of 60000
+rslrmf: Completed 14000 energy channels out of 60000
+rslrmf: Completed 15000 energy channels out of 60000
+rslrmf: Completed 16000 energy channels out of 60000
+rslrmf: Completed 17000 energy channels out of 60000
+rslrmf: Completed 18000 energy channels out of 60000
+rslrmf: Completed 19000 energy channels out of 60000
+rslrmf: Completed 20000 energy channels out of 60000
+rslrmf: Completed 21000 energy channels out of 60000
+rslrmf: Completed 22000 energy channels out of 60000
+rslrmf: Completed 23000 energy channels out of 60000
+rslrmf: Completed 24000 energy channels out of 60000
+rslrmf: Completed 25000 energy channels out of 60000
+rslrmf: Completed 26000 energy channels out of 60000
+rslrmf: Completed 27000 energy channels out of 60000
+rslrmf: Completed 28000 energy channels out of 60000
+rslrmf: Completed 29000 energy channels out of 60000
+rslrmf: Completed 30000 energy channels out of 60000
+rslrmf: Completed 31000 energy channels out of 60000
+rslrmf: Completed 32000 energy channels out of 60000
+rslrmf: Completed 33000 energy channels out of 60000
+rslrmf: Completed 34000 energy channels out of 60000
+rslrmf: Completed 35000 energy channels out of 60000
+rslrmf: Completed 36000 energy channels out of 60000
+rslrmf: Completed 37000 energy channels out of 60000
+rslrmf: Completed 38000 energy channels out of 60000
+rslrmf: Completed 39000 energy channels out of 60000
+rslrmf: Completed 40000 energy channels out of 60000
+rslrmf: Completed 41000 energy channels out of 60000
+rslrmf: Completed 42000 energy channels out of 60000
+rslrmf: Completed 43000 energy channels out of 60000
+rslrmf: Completed 44000 energy channels out of 60000
+rslrmf: Completed 45000 energy channels out of 60000
+rslrmf: Completed 46000 energy channels out of 60000
+rslrmf: Completed 47000 energy channels out of 60000
+rslrmf: Completed 48000 energy channels out of 60000
+rslrmf: Completed 49000 energy channels out of 60000
+rslrmf: Completed 50000 energy channels out of 60000
+rslrmf: Completed 51000 energy channels out of 60000
+rslrmf: Completed 52000 energy channels out of 60000
+rslrmf: Completed 53000 energy channels out of 60000
+rslrmf: Completed 54000 energy channels out of 60000
+rslrmf: Completed 55000 energy channels out of 60000
+rslrmf: Completed 56000 energy channels out of 60000
+rslrmf: Completed 57000 energy channels out of 60000
+rslrmf: Completed 58000 energy channels out of 60000
+rslrmf: Completed 59000 energy channels out of 60000
+rslrmf: INFO: Processing completed.
+
+ENDLOG:   118.264 s

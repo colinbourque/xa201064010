@@ -1,0 +1,913 @@
+# STARTLOG: Thu Feb 19 13:04:01 2026
+# EXECNAME: rslmkrmf
+# RUNPATH:  /Users/colinbourque/astrophysics/xray-data/4U-1700-377/XRISM/201064010/analysis
+# CMDLINE:  rslmkrmf infile=xa201064010rsl_p0px1000_cl.evt outfileroot=4U1700m377_fullobs_S_minproc regmode=DET whichrmf=S resolist=0 regionfile=ALLPIX pixeltest=CENTER
+INFO   ::Starting.
+INFO   ::
+INFO   ::===========================================================
+INFO   ::                Running rslmkrmf
+INFO   ::===========================================================
+INFO   ::
+INFO   ::Querying CALDB for teldef Configuration file.
+INFO   ::Querying CALDB using quzcif with the following parameters:
+INFO   ::  TELESCOPE:    XRISM
+INFO   ::  INSTRUMENT:   RESOLVE
+INFO   ::  DETNAM:       -
+INFO   ::  FILTER:       -
+INFO   ::  CODENAME:     TELDEF
+INFO   ::  DATE:         2025-02-10
+INFO   ::  TIME:         12:55:52
+INFO   ::  EXPRESSION:   -
+INFO   ::  MAXRET:       1
+INFO   ::  RETRIEVE:     no
+INFO   ::
+INFO   ::FTOOLS CMD: quzcif 'MISSION=XRISM' 'INSTRUMENT=RESOLVE' 'DETECTOR=-' 'FILTER=-' 'CODENAME=TELDEF' 'DATE=2025-02-10' 'TIME=12:55:52' 'EXPR=-' 'MAXRET=1' 'RETRIEVE=no'
+INFO   ::/Users/colinbourque/soft/caldb/data/xrism/resolve/bcf/teldef/xa_rsl_teldef_20190101v004.fits 0
+INFO   ::
+INFO   ::
+INFO   ::FTOOLS CMD: ftverify '/Users/colinbourque/soft/caldb/data/xrism/resolve/bcf/teldef/xa_rsl_teldef_20190101v004.fits[0]' 'errreport=e' 'prstat=no'
+INFO   ::verification OK: /Users/colinbourque/soft/caldb/data/xrism/resolve/bcf/teldef/xa_rsl_teldef_20190101v004.fits[0]
+INFO   ::
+INFO   ::Total number of events considered: 1195191
+INFO   ::Pointing used: RA=255.987135717979 DEC=-37.8436520403796 ROLL=88.5869835772094
+INFO   ::regionfile parameter equals ALLPIX; pixlist parameter ignored...
+INFO   ::
+INFO   ::FTOOLS CMD: ftlist 'infile=xa201064010rsl_p0px1000_cl.evt[EVENTS][PIXEL==0 || PIXEL==1 || PIXEL==2 || PIXEL==3 || PIXEL==4 || PIXEL==5 || PIXEL==6 || PIXEL==7 || PIXEL==8 || PIXEL==9 || PIXEL==10 || PIXEL==11 || PIXEL==12 || PIXEL==13 || PIXEL==14 || PIXEL==15 || PIXEL==16 || PIXEL==17 || PIXEL==18 || PIXEL==19 || PIXEL==20 || PIXEL==21 || PIXEL==22 || PIXEL==23 || PIXEL==24 || PIXEL==25 || PIXEL==26 || PIXEL==27 || PIXEL==28 || PIXEL==29 || PIXEL==30 || PIXEL==31 || PIXEL==32 || PIXEL==33 || PIXEL==34 || PIXEL==35]' 'option=K' 'outfile=-' 'include=NAXIS2'
+INFO   ::NAXIS2  =              1195191
+INFO   ::
+INFO   ::Total number of events in selected pixels: 1195191
+INFO   ::Making ITYPE histogram for PIXEL=0
+INFO   ::
+INFO   ::FTOOLS CMD: fhisto 'infile=xa201064010rsl_p0px1000_cl.evt[EVENTS][PIXEL==0]' 'outfile=histo.fits' 'column=ITYPE' 'binsz=1' 'lowval=0' 'highval=4' 'outcolx=ITYPE' 'outcoly=NEVENTS' 'clobber=yes'
+INFO   ::The file histo.fits is overwritten
+INFO   ::input file (no binspec): file://xa201064010rsl_p0px1000_cl.evt[EVENTS]
+INFO   ::input file: file://xa201064010rsl_p0px1000_cl.evt[EVENTS][PIXEL==0][bin  ITYPE=0:4:1]
+INFO   ::The histogram extension: 1dhisto
+INFO   ::
+INFO   ::Column being read: NEVENTS
+INFO   ::Filename / Extension histo.fits[1dhisto] 
+INFO   ::
+INFO   ::FTOOLS CMD: ftlist 'histo.fits[1dhisto]' 'T' 'columns=NEVENTS' 'rows=-' 'rownum=No' 'colheader=No'
+INFO   ::
+INFO   ::Read 5 from column NEVENTS 
+INFO   ::Number of events ITYPE=0 PIXEL=0: 83947
+INFO   ::Number of Hp events, PIXEL ipx=83947
+INFO   ::Fraction of events: Hp PIXEL ipix=0.0702373093505557
+INFO   ::Number of events ITYPE=1 PIXEL=0: 32385
+INFO   ::Number of events ITYPE=2 PIXEL=0: 55977
+INFO   ::Number of events ITYPE=3 PIXEL=0: 14463
+INFO   ::Number of events ITYPE=4 PIXEL=0: 45683
+INFO   ::Making ITYPE histogram for PIXEL=1
+INFO   ::
+INFO   ::FTOOLS CMD: fhisto 'infile=xa201064010rsl_p0px1000_cl.evt[EVENTS][PIXEL==1]' 'outfile=histo.fits' 'column=ITYPE' 'binsz=1' 'lowval=0' 'highval=4' 'outcolx=ITYPE' 'outcoly=NEVENTS' 'clobber=yes'
+INFO   ::The file histo.fits is overwritten
+INFO   ::input file (no binspec): file://xa201064010rsl_p0px1000_cl.evt[EVENTS]
+INFO   ::input file: file://xa201064010rsl_p0px1000_cl.evt[EVENTS][PIXEL==1][bin  ITYPE=0:4:1]
+INFO   ::The histogram extension: 1dhisto
+INFO   ::
+INFO   ::Column being read: NEVENTS
+INFO   ::Filename / Extension histo.fits[1dhisto] 
+INFO   ::
+INFO   ::FTOOLS CMD: ftlist 'histo.fits[1dhisto]' 'T' 'columns=NEVENTS' 'rows=-' 'rownum=No' 'colheader=No'
+INFO   ::
+INFO   ::Read 5 from column NEVENTS 
+INFO   ::Number of events ITYPE=0 PIXEL=1: 9133
+INFO   ::Number of Hp events, PIXEL ipx=9133
+INFO   ::Fraction of events: Hp PIXEL ipix=0.00764145647013741
+INFO   ::Number of events ITYPE=1 PIXEL=1: 260
+INFO   ::Number of events ITYPE=2 PIXEL=1: 248
+INFO   ::Number of events ITYPE=3 PIXEL=1: 123
+INFO   ::Number of events ITYPE=4 PIXEL=1: 155
+INFO   ::Making ITYPE histogram for PIXEL=2
+INFO   ::
+INFO   ::FTOOLS CMD: fhisto 'infile=xa201064010rsl_p0px1000_cl.evt[EVENTS][PIXEL==2]' 'outfile=histo.fits' 'column=ITYPE' 'binsz=1' 'lowval=0' 'highval=4' 'outcolx=ITYPE' 'outcoly=NEVENTS' 'clobber=yes'
+INFO   ::The file histo.fits is overwritten
+INFO   ::input file (no binspec): file://xa201064010rsl_p0px1000_cl.evt[EVENTS]
+INFO   ::input file: file://xa201064010rsl_p0px1000_cl.evt[EVENTS][PIXEL==2][bin  ITYPE=0:4:1]
+INFO   ::The histogram extension: 1dhisto
+INFO   ::
+INFO   ::Column being read: NEVENTS
+INFO   ::Filename / Extension histo.fits[1dhisto] 
+INFO   ::
+INFO   ::FTOOLS CMD: ftlist 'histo.fits[1dhisto]' 'T' 'columns=NEVENTS' 'rows=-' 'rownum=No' 'colheader=No'
+INFO   ::
+INFO   ::Read 5 from column NEVENTS 
+INFO   ::Number of events ITYPE=0 PIXEL=2: 31467
+INFO   ::Number of Hp events, PIXEL ipx=31467
+INFO   ::Fraction of events: Hp PIXEL ipix=0.0263280094980635
+INFO   ::Number of events ITYPE=1 PIXEL=2: 2291
+INFO   ::Number of events ITYPE=2 PIXEL=2: 2549
+INFO   ::Number of events ITYPE=3 PIXEL=2: 782
+INFO   ::Number of events ITYPE=4 PIXEL=2: 1044
+INFO   ::Making ITYPE histogram for PIXEL=3
+INFO   ::
+INFO   ::FTOOLS CMD: fhisto 'infile=xa201064010rsl_p0px1000_cl.evt[EVENTS][PIXEL==3]' 'outfile=histo.fits' 'column=ITYPE' 'binsz=1' 'lowval=0' 'highval=4' 'outcolx=ITYPE' 'outcoly=NEVENTS' 'clobber=yes'
+INFO   ::The file histo.fits is overwritten
+INFO   ::input file (no binspec): file://xa201064010rsl_p0px1000_cl.evt[EVENTS]
+INFO   ::input file: file://xa201064010rsl_p0px1000_cl.evt[EVENTS][PIXEL==3][bin  ITYPE=0:4:1]
+INFO   ::The histogram extension: 1dhisto
+INFO   ::
+INFO   ::Column being read: NEVENTS
+INFO   ::Filename / Extension histo.fits[1dhisto] 
+INFO   ::
+INFO   ::FTOOLS CMD: ftlist 'histo.fits[1dhisto]' 'T' 'columns=NEVENTS' 'rows=-' 'rownum=No' 'colheader=No'
+INFO   ::
+INFO   ::Read 5 from column NEVENTS 
+INFO   ::Number of events ITYPE=0 PIXEL=3: 7291
+INFO   ::Number of Hp events, PIXEL ipx=7291
+INFO   ::Fraction of events: Hp PIXEL ipix=0.00610028020625992
+INFO   ::Number of events ITYPE=1 PIXEL=3: 109
+INFO   ::Number of events ITYPE=2 PIXEL=3: 107
+INFO   ::Number of events ITYPE=3 PIXEL=3: 45
+INFO   ::Number of events ITYPE=4 PIXEL=3: 69
+INFO   ::Making ITYPE histogram for PIXEL=4
+INFO   ::
+INFO   ::FTOOLS CMD: fhisto 'infile=xa201064010rsl_p0px1000_cl.evt[EVENTS][PIXEL==4]' 'outfile=histo.fits' 'column=ITYPE' 'binsz=1' 'lowval=0' 'highval=4' 'outcolx=ITYPE' 'outcoly=NEVENTS' 'clobber=yes'
+INFO   ::The file histo.fits is overwritten
+INFO   ::input file (no binspec): file://xa201064010rsl_p0px1000_cl.evt[EVENTS]
+INFO   ::input file: file://xa201064010rsl_p0px1000_cl.evt[EVENTS][PIXEL==4][bin  ITYPE=0:4:1]
+INFO   ::The histogram extension: 1dhisto
+INFO   ::
+INFO   ::Column being read: NEVENTS
+INFO   ::Filename / Extension histo.fits[1dhisto] 
+INFO   ::
+INFO   ::FTOOLS CMD: ftlist 'histo.fits[1dhisto]' 'T' 'columns=NEVENTS' 'rows=-' 'rownum=No' 'colheader=No'
+INFO   ::
+INFO   ::Read 5 from column NEVENTS 
+INFO   ::Number of events ITYPE=0 PIXEL=4: 22682
+INFO   ::Number of Hp events, PIXEL ipx=22682
+INFO   ::Fraction of events: Hp PIXEL ipix=0.0189777198790821
+INFO   ::Number of events ITYPE=1 PIXEL=4: 1163
+INFO   ::Number of events ITYPE=2 PIXEL=4: 1240
+INFO   ::Number of events ITYPE=3 PIXEL=4: 400
+INFO   ::Number of events ITYPE=4 PIXEL=4: 509
+INFO   ::Making ITYPE histogram for PIXEL=5
+INFO   ::
+INFO   ::FTOOLS CMD: fhisto 'infile=xa201064010rsl_p0px1000_cl.evt[EVENTS][PIXEL==5]' 'outfile=histo.fits' 'column=ITYPE' 'binsz=1' 'lowval=0' 'highval=4' 'outcolx=ITYPE' 'outcoly=NEVENTS' 'clobber=yes'
+INFO   ::The file histo.fits is overwritten
+INFO   ::input file (no binspec): file://xa201064010rsl_p0px1000_cl.evt[EVENTS]
+INFO   ::input file: file://xa201064010rsl_p0px1000_cl.evt[EVENTS][PIXEL==5][bin  ITYPE=0:4:1]
+INFO   ::The histogram extension: 1dhisto
+INFO   ::
+INFO   ::Column being read: NEVENTS
+INFO   ::Filename / Extension histo.fits[1dhisto] 
+INFO   ::
+INFO   ::FTOOLS CMD: ftlist 'histo.fits[1dhisto]' 'T' 'columns=NEVENTS' 'rows=-' 'rownum=No' 'colheader=No'
+INFO   ::
+INFO   ::Read 5 from column NEVENTS 
+INFO   ::Number of events ITYPE=0 PIXEL=5: 3701
+INFO   ::Number of Hp events, PIXEL ipx=3701
+INFO   ::Fraction of events: Hp PIXEL ipix=0.00309657619577122
+INFO   ::Number of events ITYPE=1 PIXEL=5: 29
+INFO   ::Number of events ITYPE=2 PIXEL=5: 28
+INFO   ::Number of events ITYPE=3 PIXEL=5: 32
+INFO   ::Number of events ITYPE=4 PIXEL=5: 112
+INFO   ::Making ITYPE histogram for PIXEL=6
+INFO   ::
+INFO   ::FTOOLS CMD: fhisto 'infile=xa201064010rsl_p0px1000_cl.evt[EVENTS][PIXEL==6]' 'outfile=histo.fits' 'column=ITYPE' 'binsz=1' 'lowval=0' 'highval=4' 'outcolx=ITYPE' 'outcoly=NEVENTS' 'clobber=yes'
+INFO   ::The file histo.fits is overwritten
+INFO   ::input file (no binspec): file://xa201064010rsl_p0px1000_cl.evt[EVENTS]
+INFO   ::input file: file://xa201064010rsl_p0px1000_cl.evt[EVENTS][PIXEL==6][bin  ITYPE=0:4:1]
+INFO   ::The histogram extension: 1dhisto
+INFO   ::
+INFO   ::Column being read: NEVENTS
+INFO   ::Filename / Extension histo.fits[1dhisto] 
+INFO   ::
+INFO   ::FTOOLS CMD: ftlist 'histo.fits[1dhisto]' 'T' 'columns=NEVENTS' 'rows=-' 'rownum=No' 'colheader=No'
+INFO   ::
+INFO   ::Read 5 from column NEVENTS 
+INFO   ::Number of events ITYPE=0 PIXEL=6: 7449
+INFO   ::Number of Hp events, PIXEL ipx=7449
+INFO   ::Fraction of events: Hp PIXEL ipix=0.00623247665017558
+INFO   ::Number of events ITYPE=1 PIXEL=6: 143
+INFO   ::Number of events ITYPE=2 PIXEL=6: 142
+INFO   ::Number of events ITYPE=3 PIXEL=6: 49
+INFO   ::Number of events ITYPE=4 PIXEL=6: 81
+INFO   ::Making ITYPE histogram for PIXEL=7
+INFO   ::
+INFO   ::FTOOLS CMD: fhisto 'infile=xa201064010rsl_p0px1000_cl.evt[EVENTS][PIXEL==7]' 'outfile=histo.fits' 'column=ITYPE' 'binsz=1' 'lowval=0' 'highval=4' 'outcolx=ITYPE' 'outcoly=NEVENTS' 'clobber=yes'
+INFO   ::The file histo.fits is overwritten
+INFO   ::input file (no binspec): file://xa201064010rsl_p0px1000_cl.evt[EVENTS]
+INFO   ::input file: file://xa201064010rsl_p0px1000_cl.evt[EVENTS][PIXEL==7][bin  ITYPE=0:4:1]
+INFO   ::The histogram extension: 1dhisto
+INFO   ::
+INFO   ::Column being read: NEVENTS
+INFO   ::Filename / Extension histo.fits[1dhisto] 
+INFO   ::
+INFO   ::FTOOLS CMD: ftlist 'histo.fits[1dhisto]' 'T' 'columns=NEVENTS' 'rows=-' 'rownum=No' 'colheader=No'
+INFO   ::
+INFO   ::Read 5 from column NEVENTS 
+INFO   ::Number of events ITYPE=0 PIXEL=7: 38888
+INFO   ::Number of Hp events, PIXEL ipx=38888
+INFO   ::Fraction of events: Hp PIXEL ipix=0.03253705893033
+INFO   ::Number of events ITYPE=1 PIXEL=7: 4095
+INFO   ::Number of events ITYPE=2 PIXEL=7: 4698
+INFO   ::Number of events ITYPE=3 PIXEL=7: 1439
+INFO   ::Number of events ITYPE=4 PIXEL=7: 2145
+INFO   ::Making ITYPE histogram for PIXEL=8
+INFO   ::
+INFO   ::FTOOLS CMD: fhisto 'infile=xa201064010rsl_p0px1000_cl.evt[EVENTS][PIXEL==8]' 'outfile=histo.fits' 'column=ITYPE' 'binsz=1' 'lowval=0' 'highval=4' 'outcolx=ITYPE' 'outcoly=NEVENTS' 'clobber=yes'
+INFO   ::The file histo.fits is overwritten
+INFO   ::input file (no binspec): file://xa201064010rsl_p0px1000_cl.evt[EVENTS]
+INFO   ::input file: file://xa201064010rsl_p0px1000_cl.evt[EVENTS][PIXEL==8][bin  ITYPE=0:4:1]
+INFO   ::The histogram extension: 1dhisto
+INFO   ::
+INFO   ::Column being read: NEVENTS
+INFO   ::Filename / Extension histo.fits[1dhisto] 
+INFO   ::
+INFO   ::FTOOLS CMD: ftlist 'histo.fits[1dhisto]' 'T' 'columns=NEVENTS' 'rows=-' 'rownum=No' 'colheader=No'
+INFO   ::
+INFO   ::Read 5 from column NEVENTS 
+INFO   ::Number of events ITYPE=0 PIXEL=8: 11149
+INFO   ::Number of Hp events, PIXEL ipx=11149
+INFO   ::Fraction of events: Hp PIXEL ipix=0.0093282161595929
+INFO   ::Number of events ITYPE=1 PIXEL=8: 280
+INFO   ::Number of events ITYPE=2 PIXEL=8: 276
+INFO   ::Number of events ITYPE=3 PIXEL=8: 106
+INFO   ::Number of events ITYPE=4 PIXEL=8: 178
+INFO   ::Making ITYPE histogram for PIXEL=9
+INFO   ::
+INFO   ::FTOOLS CMD: fhisto 'infile=xa201064010rsl_p0px1000_cl.evt[EVENTS][PIXEL==9]' 'outfile=histo.fits' 'column=ITYPE' 'binsz=1' 'lowval=0' 'highval=4' 'outcolx=ITYPE' 'outcoly=NEVENTS' 'clobber=yes'
+INFO   ::The file histo.fits is overwritten
+INFO   ::input file (no binspec): file://xa201064010rsl_p0px1000_cl.evt[EVENTS]
+INFO   ::input file: file://xa201064010rsl_p0px1000_cl.evt[EVENTS][PIXEL==9][bin  ITYPE=0:4:1]
+INFO   ::The histogram extension: 1dhisto
+INFO   ::
+INFO   ::Column being read: NEVENTS
+INFO   ::Filename / Extension histo.fits[1dhisto] 
+INFO   ::
+INFO   ::FTOOLS CMD: ftlist 'histo.fits[1dhisto]' 'T' 'columns=NEVENTS' 'rows=-' 'rownum=No' 'colheader=No'
+INFO   ::
+INFO   ::Read 5 from column NEVENTS 
+INFO   ::Number of events ITYPE=0 PIXEL=9: 6949
+INFO   ::Number of Hp events, PIXEL ipx=6949
+INFO   ::Fraction of events: Hp PIXEL ipix=0.00581413347322729
+INFO   ::Number of events ITYPE=1 PIXEL=9: 117
+INFO   ::Number of events ITYPE=2 PIXEL=9: 106
+INFO   ::Number of events ITYPE=3 PIXEL=9: 63
+INFO   ::Number of events ITYPE=4 PIXEL=9: 178
+INFO   ::Making ITYPE histogram for PIXEL=10
+INFO   ::
+INFO   ::FTOOLS CMD: fhisto 'infile=xa201064010rsl_p0px1000_cl.evt[EVENTS][PIXEL==10]' 'outfile=histo.fits' 'column=ITYPE' 'binsz=1' 'lowval=0' 'highval=4' 'outcolx=ITYPE' 'outcoly=NEVENTS' 'clobber=yes'
+INFO   ::The file histo.fits is overwritten
+INFO   ::input file (no binspec): file://xa201064010rsl_p0px1000_cl.evt[EVENTS]
+INFO   ::input file: file://xa201064010rsl_p0px1000_cl.evt[EVENTS][PIXEL==10][bin  ITYPE=0:4:1]
+INFO   ::The histogram extension: 1dhisto
+INFO   ::
+INFO   ::Column being read: NEVENTS
+INFO   ::Filename / Extension histo.fits[1dhisto] 
+INFO   ::
+INFO   ::FTOOLS CMD: ftlist 'histo.fits[1dhisto]' 'T' 'columns=NEVENTS' 'rows=-' 'rownum=No' 'colheader=No'
+INFO   ::
+INFO   ::Read 5 from column NEVENTS 
+INFO   ::Number of events ITYPE=0 PIXEL=10: 28546
+INFO   ::Number of Hp events, PIXEL ipx=28546
+INFO   ::Fraction of events: Hp PIXEL ipix=0.0238840486583316
+INFO   ::Number of events ITYPE=1 PIXEL=10: 1805
+INFO   ::Number of events ITYPE=2 PIXEL=10: 1979
+INFO   ::Number of events ITYPE=3 PIXEL=10: 573
+INFO   ::Number of events ITYPE=4 PIXEL=10: 797
+INFO   ::Making ITYPE histogram for PIXEL=11
+INFO   ::
+INFO   ::FTOOLS CMD: fhisto 'infile=xa201064010rsl_p0px1000_cl.evt[EVENTS][PIXEL==11]' 'outfile=histo.fits' 'column=ITYPE' 'binsz=1' 'lowval=0' 'highval=4' 'outcolx=ITYPE' 'outcoly=NEVENTS' 'clobber=yes'
+INFO   ::The file histo.fits is overwritten
+INFO   ::input file (no binspec): file://xa201064010rsl_p0px1000_cl.evt[EVENTS]
+INFO   ::input file: file://xa201064010rsl_p0px1000_cl.evt[EVENTS][PIXEL==11][bin  ITYPE=0:4:1]
+INFO   ::The histogram extension: 1dhisto
+INFO   ::
+INFO   ::Column being read: NEVENTS
+INFO   ::Filename / Extension histo.fits[1dhisto] 
+INFO   ::
+INFO   ::FTOOLS CMD: ftlist 'histo.fits[1dhisto]' 'T' 'columns=NEVENTS' 'rows=-' 'rownum=No' 'colheader=No'
+INFO   ::
+INFO   ::Read 5 from column NEVENTS 
+INFO   ::Number of events ITYPE=0 PIXEL=11: 8924
+INFO   ::Number of Hp events, PIXEL ipx=8924
+INFO   ::Fraction of events: Hp PIXEL ipix=0.00746658902217302
+INFO   ::Number of events ITYPE=1 PIXEL=11: 181
+INFO   ::Number of events ITYPE=2 PIXEL=11: 192
+INFO   ::Number of events ITYPE=3 PIXEL=11: 83
+INFO   ::Number of events ITYPE=4 PIXEL=11: 128
+INFO   ::Making ITYPE histogram for PIXEL=12
+INFO   ::
+INFO   ::FTOOLS CMD: fhisto 'infile=xa201064010rsl_p0px1000_cl.evt[EVENTS][PIXEL==12]' 'outfile=histo.fits' 'column=ITYPE' 'binsz=1' 'lowval=0' 'highval=4' 'outcolx=ITYPE' 'outcoly=NEVENTS' 'clobber=yes'
+INFO   ::The file histo.fits is overwritten
+INFO   ::input file (no binspec): file://xa201064010rsl_p0px1000_cl.evt[EVENTS]
+INFO   ::input file: file://xa201064010rsl_p0px1000_cl.evt[EVENTS][PIXEL==12][bin  ITYPE=0:4:1]
+INFO   ::The histogram extension: 1dhisto
+INFO   ::
+INFO   ::Column being read: NEVENTS
+INFO   ::Filename / Extension histo.fits[1dhisto] 
+INFO   ::
+INFO   ::FTOOLS CMD: ftlist 'histo.fits[1dhisto]' 'T' 'columns=NEVENTS' 'rows=-' 'rownum=No' 'colheader=No'
+INFO   ::
+INFO   ::Read 5 from column NEVENTS 
+INFO   ::Number of events ITYPE=0 PIXEL=12: 0
+INFO   ::Number of Hp events, PIXEL ipx=0
+INFO   ::Fraction of events: Hp PIXEL ipix=0
+INFO   ::Number of events ITYPE=1 PIXEL=12: 0
+INFO   ::Number of events ITYPE=2 PIXEL=12: 0
+INFO   ::Number of events ITYPE=3 PIXEL=12: 0
+INFO   ::Number of events ITYPE=4 PIXEL=12: 0
+INFO   ::Making ITYPE histogram for PIXEL=13
+INFO   ::
+INFO   ::FTOOLS CMD: fhisto 'infile=xa201064010rsl_p0px1000_cl.evt[EVENTS][PIXEL==13]' 'outfile=histo.fits' 'column=ITYPE' 'binsz=1' 'lowval=0' 'highval=4' 'outcolx=ITYPE' 'outcoly=NEVENTS' 'clobber=yes'
+INFO   ::The file histo.fits is overwritten
+INFO   ::input file (no binspec): file://xa201064010rsl_p0px1000_cl.evt[EVENTS]
+INFO   ::input file: file://xa201064010rsl_p0px1000_cl.evt[EVENTS][PIXEL==13][bin  ITYPE=0:4:1]
+INFO   ::The histogram extension: 1dhisto
+INFO   ::
+INFO   ::Column being read: NEVENTS
+INFO   ::Filename / Extension histo.fits[1dhisto] 
+INFO   ::
+INFO   ::FTOOLS CMD: ftlist 'histo.fits[1dhisto]' 'T' 'columns=NEVENTS' 'rows=-' 'rownum=No' 'colheader=No'
+INFO   ::
+INFO   ::Read 5 from column NEVENTS 
+INFO   ::Number of events ITYPE=0 PIXEL=13: 22728
+INFO   ::Number of Hp events, PIXEL ipx=22728
+INFO   ::Fraction of events: Hp PIXEL ipix=0.0190162074513613
+INFO   ::Number of events ITYPE=1 PIXEL=13: 1185
+INFO   ::Number of events ITYPE=2 PIXEL=13: 1266
+INFO   ::Number of events ITYPE=3 PIXEL=13: 449
+INFO   ::Number of events ITYPE=4 PIXEL=13: 651
+INFO   ::Making ITYPE histogram for PIXEL=14
+INFO   ::
+INFO   ::FTOOLS CMD: fhisto 'infile=xa201064010rsl_p0px1000_cl.evt[EVENTS][PIXEL==14]' 'outfile=histo.fits' 'column=ITYPE' 'binsz=1' 'lowval=0' 'highval=4' 'outcolx=ITYPE' 'outcoly=NEVENTS' 'clobber=yes'
+INFO   ::The file histo.fits is overwritten
+INFO   ::input file (no binspec): file://xa201064010rsl_p0px1000_cl.evt[EVENTS]
+INFO   ::input file: file://xa201064010rsl_p0px1000_cl.evt[EVENTS][PIXEL==14][bin  ITYPE=0:4:1]
+INFO   ::The histogram extension: 1dhisto
+INFO   ::
+INFO   ::Column being read: NEVENTS
+INFO   ::Filename / Extension histo.fits[1dhisto] 
+INFO   ::
+INFO   ::FTOOLS CMD: ftlist 'histo.fits[1dhisto]' 'T' 'columns=NEVENTS' 'rows=-' 'rownum=No' 'colheader=No'
+INFO   ::
+INFO   ::Read 5 from column NEVENTS 
+INFO   ::Number of events ITYPE=0 PIXEL=14: 8297
+INFO   ::Number of Hp events, PIXEL ipx=8297
+INFO   ::Fraction of events: Hp PIXEL ipix=0.00694198667827987
+INFO   ::Number of events ITYPE=1 PIXEL=14: 160
+INFO   ::Number of events ITYPE=2 PIXEL=14: 161
+INFO   ::Number of events ITYPE=3 PIXEL=14: 102
+INFO   ::Number of events ITYPE=4 PIXEL=14: 183
+INFO   ::Making ITYPE histogram for PIXEL=15
+INFO   ::
+INFO   ::FTOOLS CMD: fhisto 'infile=xa201064010rsl_p0px1000_cl.evt[EVENTS][PIXEL==15]' 'outfile=histo.fits' 'column=ITYPE' 'binsz=1' 'lowval=0' 'highval=4' 'outcolx=ITYPE' 'outcoly=NEVENTS' 'clobber=yes'
+INFO   ::The file histo.fits is overwritten
+INFO   ::input file (no binspec): file://xa201064010rsl_p0px1000_cl.evt[EVENTS]
+INFO   ::input file: file://xa201064010rsl_p0px1000_cl.evt[EVENTS][PIXEL==15][bin  ITYPE=0:4:1]
+INFO   ::The histogram extension: 1dhisto
+INFO   ::
+INFO   ::Column being read: NEVENTS
+INFO   ::Filename / Extension histo.fits[1dhisto] 
+INFO   ::
+INFO   ::FTOOLS CMD: ftlist 'histo.fits[1dhisto]' 'T' 'columns=NEVENTS' 'rows=-' 'rownum=No' 'colheader=No'
+INFO   ::
+INFO   ::Read 5 from column NEVENTS 
+INFO   ::Number of events ITYPE=0 PIXEL=15: 36066
+INFO   ::Number of Hp events, PIXEL ipx=36066
+INFO   ::Fraction of events: Hp PIXEL ipix=0.0301759300396338
+INFO   ::Number of events ITYPE=1 PIXEL=15: 3458
+INFO   ::Number of events ITYPE=2 PIXEL=15: 3919
+INFO   ::Number of events ITYPE=3 PIXEL=15: 1208
+INFO   ::Number of events ITYPE=4 PIXEL=15: 1769
+INFO   ::Making ITYPE histogram for PIXEL=16
+INFO   ::
+INFO   ::FTOOLS CMD: fhisto 'infile=xa201064010rsl_p0px1000_cl.evt[EVENTS][PIXEL==16]' 'outfile=histo.fits' 'column=ITYPE' 'binsz=1' 'lowval=0' 'highval=4' 'outcolx=ITYPE' 'outcoly=NEVENTS' 'clobber=yes'
+INFO   ::The file histo.fits is overwritten
+INFO   ::input file (no binspec): file://xa201064010rsl_p0px1000_cl.evt[EVENTS]
+INFO   ::input file: file://xa201064010rsl_p0px1000_cl.evt[EVENTS][PIXEL==16][bin  ITYPE=0:4:1]
+INFO   ::The histogram extension: 1dhisto
+INFO   ::
+INFO   ::Column being read: NEVENTS
+INFO   ::Filename / Extension histo.fits[1dhisto] 
+INFO   ::
+INFO   ::FTOOLS CMD: ftlist 'histo.fits[1dhisto]' 'T' 'columns=NEVENTS' 'rows=-' 'rownum=No' 'colheader=No'
+INFO   ::
+INFO   ::Read 5 from column NEVENTS 
+INFO   ::Number of events ITYPE=0 PIXEL=16: 8321
+INFO   ::Number of Hp events, PIXEL ipx=8321
+INFO   ::Fraction of events: Hp PIXEL ipix=0.00696206715077339
+INFO   ::Number of events ITYPE=1 PIXEL=16: 182
+INFO   ::Number of events ITYPE=2 PIXEL=16: 207
+INFO   ::Number of events ITYPE=3 PIXEL=16: 84
+INFO   ::Number of events ITYPE=4 PIXEL=16: 130
+INFO   ::Making ITYPE histogram for PIXEL=17
+INFO   ::
+INFO   ::FTOOLS CMD: fhisto 'infile=xa201064010rsl_p0px1000_cl.evt[EVENTS][PIXEL==17]' 'outfile=histo.fits' 'column=ITYPE' 'binsz=1' 'lowval=0' 'highval=4' 'outcolx=ITYPE' 'outcoly=NEVENTS' 'clobber=yes'
+INFO   ::The file histo.fits is overwritten
+INFO   ::input file (no binspec): file://xa201064010rsl_p0px1000_cl.evt[EVENTS]
+INFO   ::input file: file://xa201064010rsl_p0px1000_cl.evt[EVENTS][PIXEL==17][bin  ITYPE=0:4:1]
+INFO   ::The histogram extension: 1dhisto
+INFO   ::
+INFO   ::Column being read: NEVENTS
+INFO   ::Filename / Extension histo.fits[1dhisto] 
+INFO   ::
+INFO   ::FTOOLS CMD: ftlist 'histo.fits[1dhisto]' 'T' 'columns=NEVENTS' 'rows=-' 'rownum=No' 'colheader=No'
+INFO   ::
+INFO   ::Read 5 from column NEVENTS 
+INFO   ::Number of events ITYPE=0 PIXEL=17: 82190
+INFO   ::Number of Hp events, PIXEL ipx=82190
+INFO   ::Fraction of events: Hp PIXEL ipix=0.0687672514267594
+INFO   ::Number of events ITYPE=1 PIXEL=17: 31464
+INFO   ::Number of events ITYPE=2 PIXEL=17: 53890
+INFO   ::Number of events ITYPE=3 PIXEL=17: 14111
+INFO   ::Number of events ITYPE=4 PIXEL=17: 43321
+INFO   ::Making ITYPE histogram for PIXEL=18
+INFO   ::
+INFO   ::FTOOLS CMD: fhisto 'infile=xa201064010rsl_p0px1000_cl.evt[EVENTS][PIXEL==18]' 'outfile=histo.fits' 'column=ITYPE' 'binsz=1' 'lowval=0' 'highval=4' 'outcolx=ITYPE' 'outcoly=NEVENTS' 'clobber=yes'
+INFO   ::The file histo.fits is overwritten
+INFO   ::input file (no binspec): file://xa201064010rsl_p0px1000_cl.evt[EVENTS]
+INFO   ::input file: file://xa201064010rsl_p0px1000_cl.evt[EVENTS][PIXEL==18][bin  ITYPE=0:4:1]
+INFO   ::The histogram extension: 1dhisto
+INFO   ::
+INFO   ::Column being read: NEVENTS
+INFO   ::Filename / Extension histo.fits[1dhisto] 
+INFO   ::
+INFO   ::FTOOLS CMD: ftlist 'histo.fits[1dhisto]' 'T' 'columns=NEVENTS' 'rows=-' 'rownum=No' 'colheader=No'
+INFO   ::
+INFO   ::Read 5 from column NEVENTS 
+INFO   ::Number of events ITYPE=0 PIXEL=18: 72086
+INFO   ::Number of Hp events, PIXEL ipx=72086
+INFO   ::Fraction of events: Hp PIXEL ipix=0.0603133725069884
+INFO   ::Number of events ITYPE=1 PIXEL=18: 16164
+INFO   ::Number of events ITYPE=2 PIXEL=18: 22194
+INFO   ::Number of events ITYPE=3 PIXEL=18: 6340
+INFO   ::Number of events ITYPE=4 PIXEL=18: 12924
+INFO   ::Making ITYPE histogram for PIXEL=19
+INFO   ::
+INFO   ::FTOOLS CMD: fhisto 'infile=xa201064010rsl_p0px1000_cl.evt[EVENTS][PIXEL==19]' 'outfile=histo.fits' 'column=ITYPE' 'binsz=1' 'lowval=0' 'highval=4' 'outcolx=ITYPE' 'outcoly=NEVENTS' 'clobber=yes'
+INFO   ::The file histo.fits is overwritten
+INFO   ::input file (no binspec): file://xa201064010rsl_p0px1000_cl.evt[EVENTS]
+INFO   ::input file: file://xa201064010rsl_p0px1000_cl.evt[EVENTS][PIXEL==19][bin  ITYPE=0:4:1]
+INFO   ::The histogram extension: 1dhisto
+INFO   ::
+INFO   ::Column being read: NEVENTS
+INFO   ::Filename / Extension histo.fits[1dhisto] 
+INFO   ::
+INFO   ::FTOOLS CMD: ftlist 'histo.fits[1dhisto]' 'T' 'columns=NEVENTS' 'rows=-' 'rownum=No' 'colheader=No'
+INFO   ::
+INFO   ::Read 5 from column NEVENTS 
+INFO   ::Number of events ITYPE=0 PIXEL=19: 8314
+INFO   ::Number of Hp events, PIXEL ipx=8314
+INFO   ::Fraction of events: Hp PIXEL ipix=0.00695621034629612
+INFO   ::Number of events ITYPE=1 PIXEL=19: 210
+INFO   ::Number of events ITYPE=2 PIXEL=19: 218
+INFO   ::Number of events ITYPE=3 PIXEL=19: 109
+INFO   ::Number of events ITYPE=4 PIXEL=19: 210
+INFO   ::Making ITYPE histogram for PIXEL=20
+INFO   ::
+INFO   ::FTOOLS CMD: fhisto 'infile=xa201064010rsl_p0px1000_cl.evt[EVENTS][PIXEL==20]' 'outfile=histo.fits' 'column=ITYPE' 'binsz=1' 'lowval=0' 'highval=4' 'outcolx=ITYPE' 'outcoly=NEVENTS' 'clobber=yes'
+INFO   ::The file histo.fits is overwritten
+INFO   ::input file (no binspec): file://xa201064010rsl_p0px1000_cl.evt[EVENTS]
+INFO   ::input file: file://xa201064010rsl_p0px1000_cl.evt[EVENTS][PIXEL==20][bin  ITYPE=0:4:1]
+INFO   ::The histogram extension: 1dhisto
+INFO   ::
+INFO   ::Column being read: NEVENTS
+INFO   ::Filename / Extension histo.fits[1dhisto] 
+INFO   ::
+INFO   ::FTOOLS CMD: ftlist 'histo.fits[1dhisto]' 'T' 'columns=NEVENTS' 'rows=-' 'rownum=No' 'colheader=No'
+INFO   ::
+INFO   ::Read 5 from column NEVENTS 
+INFO   ::Number of events ITYPE=0 PIXEL=20: 26046
+INFO   ::Number of Hp events, PIXEL ipx=26046
+INFO   ::Fraction of events: Hp PIXEL ipix=0.0217923327735902
+INFO   ::Number of events ITYPE=1 PIXEL=20: 1606
+INFO   ::Number of events ITYPE=2 PIXEL=20: 1722
+INFO   ::Number of events ITYPE=3 PIXEL=20: 613
+INFO   ::Number of events ITYPE=4 PIXEL=20: 818
+INFO   ::Making ITYPE histogram for PIXEL=21
+INFO   ::
+INFO   ::FTOOLS CMD: fhisto 'infile=xa201064010rsl_p0px1000_cl.evt[EVENTS][PIXEL==21]' 'outfile=histo.fits' 'column=ITYPE' 'binsz=1' 'lowval=0' 'highval=4' 'outcolx=ITYPE' 'outcoly=NEVENTS' 'clobber=yes'
+INFO   ::The file histo.fits is overwritten
+INFO   ::input file (no binspec): file://xa201064010rsl_p0px1000_cl.evt[EVENTS]
+INFO   ::input file: file://xa201064010rsl_p0px1000_cl.evt[EVENTS][PIXEL==21][bin  ITYPE=0:4:1]
+INFO   ::The histogram extension: 1dhisto
+INFO   ::
+INFO   ::Column being read: NEVENTS
+INFO   ::Filename / Extension histo.fits[1dhisto] 
+INFO   ::
+INFO   ::FTOOLS CMD: ftlist 'histo.fits[1dhisto]' 'T' 'columns=NEVENTS' 'rows=-' 'rownum=No' 'colheader=No'
+INFO   ::
+INFO   ::Read 5 from column NEVENTS 
+INFO   ::Number of events ITYPE=0 PIXEL=21: 4459
+INFO   ::Number of Hp events, PIXEL ipx=4459
+INFO   ::Fraction of events: Hp PIXEL ipix=0.00373078445202482
+INFO   ::Number of events ITYPE=1 PIXEL=21: 50
+INFO   ::Number of events ITYPE=2 PIXEL=21: 52
+INFO   ::Number of events ITYPE=3 PIXEL=21: 20
+INFO   ::Number of events ITYPE=4 PIXEL=21: 46
+INFO   ::Making ITYPE histogram for PIXEL=22
+INFO   ::
+INFO   ::FTOOLS CMD: fhisto 'infile=xa201064010rsl_p0px1000_cl.evt[EVENTS][PIXEL==22]' 'outfile=histo.fits' 'column=ITYPE' 'binsz=1' 'lowval=0' 'highval=4' 'outcolx=ITYPE' 'outcoly=NEVENTS' 'clobber=yes'
+INFO   ::The file histo.fits is overwritten
+INFO   ::input file (no binspec): file://xa201064010rsl_p0px1000_cl.evt[EVENTS]
+INFO   ::input file: file://xa201064010rsl_p0px1000_cl.evt[EVENTS][PIXEL==22][bin  ITYPE=0:4:1]
+INFO   ::The histogram extension: 1dhisto
+INFO   ::
+INFO   ::Column being read: NEVENTS
+INFO   ::Filename / Extension histo.fits[1dhisto] 
+INFO   ::
+INFO   ::FTOOLS CMD: ftlist 'histo.fits[1dhisto]' 'T' 'columns=NEVENTS' 'rows=-' 'rownum=No' 'colheader=No'
+INFO   ::
+INFO   ::Read 5 from column NEVENTS 
+INFO   ::Number of events ITYPE=0 PIXEL=22: 11592
+INFO   ::Number of Hp events, PIXEL ipx=11592
+INFO   ::Fraction of events: Hp PIXEL ipix=0.00969886821436908
+INFO   ::Number of events ITYPE=1 PIXEL=22: 288
+INFO   ::Number of events ITYPE=2 PIXEL=22: 309
+INFO   ::Number of events ITYPE=3 PIXEL=22: 101
+INFO   ::Number of events ITYPE=4 PIXEL=22: 131
+INFO   ::Making ITYPE histogram for PIXEL=23
+INFO   ::
+INFO   ::FTOOLS CMD: fhisto 'infile=xa201064010rsl_p0px1000_cl.evt[EVENTS][PIXEL==23]' 'outfile=histo.fits' 'column=ITYPE' 'binsz=1' 'lowval=0' 'highval=4' 'outcolx=ITYPE' 'outcoly=NEVENTS' 'clobber=yes'
+INFO   ::The file histo.fits is overwritten
+INFO   ::input file (no binspec): file://xa201064010rsl_p0px1000_cl.evt[EVENTS]
+INFO   ::input file: file://xa201064010rsl_p0px1000_cl.evt[EVENTS][PIXEL==23][bin  ITYPE=0:4:1]
+INFO   ::The histogram extension: 1dhisto
+INFO   ::
+INFO   ::Column being read: NEVENTS
+INFO   ::Filename / Extension histo.fits[1dhisto] 
+INFO   ::
+INFO   ::FTOOLS CMD: ftlist 'histo.fits[1dhisto]' 'T' 'columns=NEVENTS' 'rows=-' 'rownum=No' 'colheader=No'
+INFO   ::
+INFO   ::Read 5 from column NEVENTS 
+INFO   ::Number of events ITYPE=0 PIXEL=23: 1878
+INFO   ::Number of Hp events, PIXEL ipx=1878
+INFO   ::Fraction of events: Hp PIXEL ipix=0.00157129697261777
+INFO   ::Number of events ITYPE=1 PIXEL=23: 8
+INFO   ::Number of events ITYPE=2 PIXEL=23: 4
+INFO   ::Number of events ITYPE=3 PIXEL=23: 21
+INFO   ::Number of events ITYPE=4 PIXEL=23: 97
+INFO   ::Making ITYPE histogram for PIXEL=24
+INFO   ::
+INFO   ::FTOOLS CMD: fhisto 'infile=xa201064010rsl_p0px1000_cl.evt[EVENTS][PIXEL==24]' 'outfile=histo.fits' 'column=ITYPE' 'binsz=1' 'lowval=0' 'highval=4' 'outcolx=ITYPE' 'outcoly=NEVENTS' 'clobber=yes'
+INFO   ::The file histo.fits is overwritten
+INFO   ::input file (no binspec): file://xa201064010rsl_p0px1000_cl.evt[EVENTS]
+INFO   ::input file: file://xa201064010rsl_p0px1000_cl.evt[EVENTS][PIXEL==24][bin  ITYPE=0:4:1]
+INFO   ::The histogram extension: 1dhisto
+INFO   ::
+INFO   ::Column being read: NEVENTS
+INFO   ::Filename / Extension histo.fits[1dhisto] 
+INFO   ::
+INFO   ::FTOOLS CMD: ftlist 'histo.fits[1dhisto]' 'T' 'columns=NEVENTS' 'rows=-' 'rownum=No' 'colheader=No'
+INFO   ::
+INFO   ::Read 5 from column NEVENTS 
+INFO   ::Number of events ITYPE=0 PIXEL=24: 4087
+INFO   ::Number of Hp events, PIXEL ipx=4087
+INFO   ::Fraction of events: Hp PIXEL ipix=0.0034195371283753
+INFO   ::Number of events ITYPE=1 PIXEL=24: 49
+INFO   ::Number of events ITYPE=2 PIXEL=24: 51
+INFO   ::Number of events ITYPE=3 PIXEL=24: 38
+INFO   ::Number of events ITYPE=4 PIXEL=24: 83
+INFO   ::Making ITYPE histogram for PIXEL=25
+INFO   ::
+INFO   ::FTOOLS CMD: fhisto 'infile=xa201064010rsl_p0px1000_cl.evt[EVENTS][PIXEL==25]' 'outfile=histo.fits' 'column=ITYPE' 'binsz=1' 'lowval=0' 'highval=4' 'outcolx=ITYPE' 'outcoly=NEVENTS' 'clobber=yes'
+INFO   ::The file histo.fits is overwritten
+INFO   ::input file (no binspec): file://xa201064010rsl_p0px1000_cl.evt[EVENTS]
+INFO   ::input file: file://xa201064010rsl_p0px1000_cl.evt[EVENTS][PIXEL==25][bin  ITYPE=0:4:1]
+INFO   ::The histogram extension: 1dhisto
+INFO   ::
+INFO   ::Column being read: NEVENTS
+INFO   ::Filename / Extension histo.fits[1dhisto] 
+INFO   ::
+INFO   ::FTOOLS CMD: ftlist 'histo.fits[1dhisto]' 'T' 'columns=NEVENTS' 'rows=-' 'rownum=No' 'colheader=No'
+INFO   ::
+INFO   ::Read 5 from column NEVENTS 
+INFO   ::Number of events ITYPE=0 PIXEL=25: 21188
+INFO   ::Number of Hp events, PIXEL ipx=21188
+INFO   ::Fraction of events: Hp PIXEL ipix=0.0177277104663606
+INFO   ::Number of events ITYPE=1 PIXEL=25: 935
+INFO   ::Number of events ITYPE=2 PIXEL=25: 994
+INFO   ::Number of events ITYPE=3 PIXEL=25: 347
+INFO   ::Number of events ITYPE=4 PIXEL=25: 529
+INFO   ::Making ITYPE histogram for PIXEL=26
+INFO   ::
+INFO   ::FTOOLS CMD: fhisto 'infile=xa201064010rsl_p0px1000_cl.evt[EVENTS][PIXEL==26]' 'outfile=histo.fits' 'column=ITYPE' 'binsz=1' 'lowval=0' 'highval=4' 'outcolx=ITYPE' 'outcoly=NEVENTS' 'clobber=yes'
+INFO   ::The file histo.fits is overwritten
+INFO   ::input file (no binspec): file://xa201064010rsl_p0px1000_cl.evt[EVENTS]
+INFO   ::input file: file://xa201064010rsl_p0px1000_cl.evt[EVENTS][PIXEL==26][bin  ITYPE=0:4:1]
+INFO   ::The histogram extension: 1dhisto
+INFO   ::
+INFO   ::Column being read: NEVENTS
+INFO   ::Filename / Extension histo.fits[1dhisto] 
+INFO   ::
+INFO   ::FTOOLS CMD: ftlist 'histo.fits[1dhisto]' 'T' 'columns=NEVENTS' 'rows=-' 'rownum=No' 'colheader=No'
+INFO   ::
+INFO   ::Read 5 from column NEVENTS 
+INFO   ::Number of events ITYPE=0 PIXEL=26: 5416
+INFO   ::Number of Hp events, PIXEL ipx=5416
+INFO   ::Fraction of events: Hp PIXEL ipix=0.00453149329270384
+INFO   ::Number of events ITYPE=1 PIXEL=26: 60
+INFO   ::Number of events ITYPE=2 PIXEL=26: 60
+INFO   ::Number of events ITYPE=3 PIXEL=26: 35
+INFO   ::Number of events ITYPE=4 PIXEL=26: 68
+INFO   ::Making ITYPE histogram for PIXEL=27
+INFO   ::
+INFO   ::FTOOLS CMD: fhisto 'infile=xa201064010rsl_p0px1000_cl.evt[EVENTS][PIXEL==27]' 'outfile=histo.fits' 'column=ITYPE' 'binsz=1' 'lowval=0' 'highval=4' 'outcolx=ITYPE' 'outcoly=NEVENTS' 'clobber=yes'
+INFO   ::The file histo.fits is overwritten
+INFO   ::input file (no binspec): file://xa201064010rsl_p0px1000_cl.evt[EVENTS]
+INFO   ::input file: file://xa201064010rsl_p0px1000_cl.evt[EVENTS][PIXEL==27][bin  ITYPE=0:4:1]
+INFO   ::The histogram extension: 1dhisto
+INFO   ::
+INFO   ::Column being read: NEVENTS
+INFO   ::Filename / Extension histo.fits[1dhisto] 
+INFO   ::
+INFO   ::FTOOLS CMD: ftlist 'histo.fits[1dhisto]' 'T' 'columns=NEVENTS' 'rows=-' 'rownum=No' 'colheader=No'
+INFO   ::
+INFO   ::Read 5 from column NEVENTS 
+INFO   ::Number of events ITYPE=0 PIXEL=27: 8345
+INFO   ::Number of Hp events, PIXEL ipx=8345
+INFO   ::Fraction of events: Hp PIXEL ipix=0.00698214762326691
+INFO   ::Number of events ITYPE=1 PIXEL=27: 190
+INFO   ::Number of events ITYPE=2 PIXEL=27: 176
+INFO   ::Number of events ITYPE=3 PIXEL=27: 73
+INFO   ::Number of events ITYPE=4 PIXEL=27: 112
+INFO   ::Making ITYPE histogram for PIXEL=28
+INFO   ::
+INFO   ::FTOOLS CMD: fhisto 'infile=xa201064010rsl_p0px1000_cl.evt[EVENTS][PIXEL==28]' 'outfile=histo.fits' 'column=ITYPE' 'binsz=1' 'lowval=0' 'highval=4' 'outcolx=ITYPE' 'outcoly=NEVENTS' 'clobber=yes'
+INFO   ::The file histo.fits is overwritten
+INFO   ::input file (no binspec): file://xa201064010rsl_p0px1000_cl.evt[EVENTS]
+INFO   ::input file: file://xa201064010rsl_p0px1000_cl.evt[EVENTS][PIXEL==28][bin  ITYPE=0:4:1]
+INFO   ::The histogram extension: 1dhisto
+INFO   ::
+INFO   ::Column being read: NEVENTS
+INFO   ::Filename / Extension histo.fits[1dhisto] 
+INFO   ::
+INFO   ::FTOOLS CMD: ftlist 'histo.fits[1dhisto]' 'T' 'columns=NEVENTS' 'rows=-' 'rownum=No' 'colheader=No'
+INFO   ::
+INFO   ::Read 5 from column NEVENTS 
+INFO   ::Number of events ITYPE=0 PIXEL=28: 22282
+INFO   ::Number of Hp events, PIXEL ipx=22282
+INFO   ::Fraction of events: Hp PIXEL ipix=0.0186430453375235
+INFO   ::Number of events ITYPE=1 PIXEL=28: 1198
+INFO   ::Number of events ITYPE=2 PIXEL=28: 1277
+INFO   ::Number of events ITYPE=3 PIXEL=28: 410
+INFO   ::Number of events ITYPE=4 PIXEL=28: 545
+INFO   ::Making ITYPE histogram for PIXEL=29
+INFO   ::
+INFO   ::FTOOLS CMD: fhisto 'infile=xa201064010rsl_p0px1000_cl.evt[EVENTS][PIXEL==29]' 'outfile=histo.fits' 'column=ITYPE' 'binsz=1' 'lowval=0' 'highval=4' 'outcolx=ITYPE' 'outcoly=NEVENTS' 'clobber=yes'
+INFO   ::The file histo.fits is overwritten
+INFO   ::input file (no binspec): file://xa201064010rsl_p0px1000_cl.evt[EVENTS]
+INFO   ::input file: file://xa201064010rsl_p0px1000_cl.evt[EVENTS][PIXEL==29][bin  ITYPE=0:4:1]
+INFO   ::The histogram extension: 1dhisto
+INFO   ::
+INFO   ::Column being read: NEVENTS
+INFO   ::Filename / Extension histo.fits[1dhisto] 
+INFO   ::
+INFO   ::FTOOLS CMD: ftlist 'histo.fits[1dhisto]' 'T' 'columns=NEVENTS' 'rows=-' 'rownum=No' 'colheader=No'
+INFO   ::
+INFO   ::Read 5 from column NEVENTS 
+INFO   ::Number of events ITYPE=0 PIXEL=29: 3392
+INFO   ::Number of Hp events, PIXEL ipx=3392
+INFO   ::Fraction of events: Hp PIXEL ipix=0.00283804011241718
+INFO   ::Number of events ITYPE=1 PIXEL=29: 29
+INFO   ::Number of events ITYPE=2 PIXEL=29: 27
+INFO   ::Number of events ITYPE=3 PIXEL=29: 31
+INFO   ::Number of events ITYPE=4 PIXEL=29: 102
+INFO   ::Making ITYPE histogram for PIXEL=30
+INFO   ::
+INFO   ::FTOOLS CMD: fhisto 'infile=xa201064010rsl_p0px1000_cl.evt[EVENTS][PIXEL==30]' 'outfile=histo.fits' 'column=ITYPE' 'binsz=1' 'lowval=0' 'highval=4' 'outcolx=ITYPE' 'outcoly=NEVENTS' 'clobber=yes'
+INFO   ::The file histo.fits is overwritten
+INFO   ::input file (no binspec): file://xa201064010rsl_p0px1000_cl.evt[EVENTS]
+INFO   ::input file: file://xa201064010rsl_p0px1000_cl.evt[EVENTS][PIXEL==30][bin  ITYPE=0:4:1]
+INFO   ::The histogram extension: 1dhisto
+INFO   ::
+INFO   ::Column being read: NEVENTS
+INFO   ::Filename / Extension histo.fits[1dhisto] 
+INFO   ::
+INFO   ::FTOOLS CMD: ftlist 'histo.fits[1dhisto]' 'T' 'columns=NEVENTS' 'rows=-' 'rownum=No' 'colheader=No'
+INFO   ::
+INFO   ::Read 5 from column NEVENTS 
+INFO   ::Number of events ITYPE=0 PIXEL=30: 1851
+INFO   ::Number of Hp events, PIXEL ipx=1851
+INFO   ::Fraction of events: Hp PIXEL ipix=0.00154870644106256
+INFO   ::Number of events ITYPE=1 PIXEL=30: 6
+INFO   ::Number of events ITYPE=2 PIXEL=30: 6
+INFO   ::Number of events ITYPE=3 PIXEL=30: 31
+INFO   ::Number of events ITYPE=4 PIXEL=30: 107
+INFO   ::Making ITYPE histogram for PIXEL=31
+INFO   ::
+INFO   ::FTOOLS CMD: fhisto 'infile=xa201064010rsl_p0px1000_cl.evt[EVENTS][PIXEL==31]' 'outfile=histo.fits' 'column=ITYPE' 'binsz=1' 'lowval=0' 'highval=4' 'outcolx=ITYPE' 'outcoly=NEVENTS' 'clobber=yes'
+INFO   ::The file histo.fits is overwritten
+INFO   ::input file (no binspec): file://xa201064010rsl_p0px1000_cl.evt[EVENTS]
+INFO   ::input file: file://xa201064010rsl_p0px1000_cl.evt[EVENTS][PIXEL==31][bin  ITYPE=0:4:1]
+INFO   ::The histogram extension: 1dhisto
+INFO   ::
+INFO   ::Column being read: NEVENTS
+INFO   ::Filename / Extension histo.fits[1dhisto] 
+INFO   ::
+INFO   ::FTOOLS CMD: ftlist 'histo.fits[1dhisto]' 'T' 'columns=NEVENTS' 'rows=-' 'rownum=No' 'colheader=No'
+INFO   ::
+INFO   ::Read 5 from column NEVENTS 
+INFO   ::Number of events ITYPE=0 PIXEL=31: 9832
+INFO   ::Number of Hp events, PIXEL ipx=9832
+INFO   ::Fraction of events: Hp PIXEL ipix=0.00822630023151111
+INFO   ::Number of events ITYPE=1 PIXEL=31: 193
+INFO   ::Number of events ITYPE=2 PIXEL=31: 201
+INFO   ::Number of events ITYPE=3 PIXEL=31: 88
+INFO   ::Number of events ITYPE=4 PIXEL=31: 122
+INFO   ::Making ITYPE histogram for PIXEL=32
+INFO   ::
+INFO   ::FTOOLS CMD: fhisto 'infile=xa201064010rsl_p0px1000_cl.evt[EVENTS][PIXEL==32]' 'outfile=histo.fits' 'column=ITYPE' 'binsz=1' 'lowval=0' 'highval=4' 'outcolx=ITYPE' 'outcoly=NEVENTS' 'clobber=yes'
+INFO   ::The file histo.fits is overwritten
+INFO   ::input file (no binspec): file://xa201064010rsl_p0px1000_cl.evt[EVENTS]
+INFO   ::input file: file://xa201064010rsl_p0px1000_cl.evt[EVENTS][PIXEL==32][bin  ITYPE=0:4:1]
+INFO   ::The histogram extension: 1dhisto
+INFO   ::
+INFO   ::Column being read: NEVENTS
+INFO   ::Filename / Extension histo.fits[1dhisto] 
+INFO   ::
+INFO   ::FTOOLS CMD: ftlist 'histo.fits[1dhisto]' 'T' 'columns=NEVENTS' 'rows=-' 'rownum=No' 'colheader=No'
+INFO   ::
+INFO   ::Read 5 from column NEVENTS 
+INFO   ::Number of events ITYPE=0 PIXEL=32: 3800
+INFO   ::Number of Hp events, PIXEL ipx=3800
+INFO   ::Fraction of events: Hp PIXEL ipix=0.00317940814480698
+INFO   ::Number of events ITYPE=1 PIXEL=32: 35
+INFO   ::Number of events ITYPE=2 PIXEL=32: 40
+INFO   ::Number of events ITYPE=3 PIXEL=32: 32
+INFO   ::Number of events ITYPE=4 PIXEL=32: 78
+INFO   ::Making ITYPE histogram for PIXEL=33
+INFO   ::
+INFO   ::FTOOLS CMD: fhisto 'infile=xa201064010rsl_p0px1000_cl.evt[EVENTS][PIXEL==33]' 'outfile=histo.fits' 'column=ITYPE' 'binsz=1' 'lowval=0' 'highval=4' 'outcolx=ITYPE' 'outcoly=NEVENTS' 'clobber=yes'
+INFO   ::The file histo.fits is overwritten
+INFO   ::input file (no binspec): file://xa201064010rsl_p0px1000_cl.evt[EVENTS]
+INFO   ::input file: file://xa201064010rsl_p0px1000_cl.evt[EVENTS][PIXEL==33][bin  ITYPE=0:4:1]
+INFO   ::The histogram extension: 1dhisto
+INFO   ::
+INFO   ::Column being read: NEVENTS
+INFO   ::Filename / Extension histo.fits[1dhisto] 
+INFO   ::
+INFO   ::FTOOLS CMD: ftlist 'histo.fits[1dhisto]' 'T' 'columns=NEVENTS' 'rows=-' 'rownum=No' 'colheader=No'
+INFO   ::
+INFO   ::Read 5 from column NEVENTS 
+INFO   ::Number of events ITYPE=0 PIXEL=33: 21594
+INFO   ::Number of Hp events, PIXEL ipx=21594
+INFO   ::Fraction of events: Hp PIXEL ipix=0.0180674051260426
+INFO   ::Number of events ITYPE=1 PIXEL=33: 980
+INFO   ::Number of events ITYPE=2 PIXEL=33: 1055
+INFO   ::Number of events ITYPE=3 PIXEL=33: 324
+INFO   ::Number of events ITYPE=4 PIXEL=33: 427
+INFO   ::Making ITYPE histogram for PIXEL=34
+INFO   ::
+INFO   ::FTOOLS CMD: fhisto 'infile=xa201064010rsl_p0px1000_cl.evt[EVENTS][PIXEL==34]' 'outfile=histo.fits' 'column=ITYPE' 'binsz=1' 'lowval=0' 'highval=4' 'outcolx=ITYPE' 'outcoly=NEVENTS' 'clobber=yes'
+INFO   ::The file histo.fits is overwritten
+INFO   ::input file (no binspec): file://xa201064010rsl_p0px1000_cl.evt[EVENTS]
+INFO   ::input file: file://xa201064010rsl_p0px1000_cl.evt[EVENTS][PIXEL==34][bin  ITYPE=0:4:1]
+INFO   ::The histogram extension: 1dhisto
+INFO   ::
+INFO   ::Column being read: NEVENTS
+INFO   ::Filename / Extension histo.fits[1dhisto] 
+INFO   ::
+INFO   ::FTOOLS CMD: ftlist 'histo.fits[1dhisto]' 'T' 'columns=NEVENTS' 'rows=-' 'rownum=No' 'colheader=No'
+INFO   ::
+INFO   ::Read 5 from column NEVENTS 
+INFO   ::Number of events ITYPE=0 PIXEL=34: 6743
+INFO   ::Number of Hp events, PIXEL ipx=6743
+INFO   ::Fraction of events: Hp PIXEL ipix=0.0056417760843246
+INFO   ::Number of events ITYPE=1 PIXEL=34: 111
+INFO   ::Number of events ITYPE=2 PIXEL=34: 106
+INFO   ::Number of events ITYPE=3 PIXEL=34: 35
+INFO   ::Number of events ITYPE=4 PIXEL=34: 49
+INFO   ::Making ITYPE histogram for PIXEL=35
+INFO   ::
+INFO   ::FTOOLS CMD: fhisto 'infile=xa201064010rsl_p0px1000_cl.evt[EVENTS][PIXEL==35]' 'outfile=histo.fits' 'column=ITYPE' 'binsz=1' 'lowval=0' 'highval=4' 'outcolx=ITYPE' 'outcoly=NEVENTS' 'clobber=yes'
+INFO   ::The file histo.fits is overwritten
+INFO   ::input file (no binspec): file://xa201064010rsl_p0px1000_cl.evt[EVENTS]
+INFO   ::input file: file://xa201064010rsl_p0px1000_cl.evt[EVENTS][PIXEL==35][bin  ITYPE=0:4:1]
+INFO   ::The histogram extension: 1dhisto
+INFO   ::
+INFO   ::Column being read: NEVENTS
+INFO   ::Filename / Extension histo.fits[1dhisto] 
+INFO   ::
+INFO   ::FTOOLS CMD: ftlist 'histo.fits[1dhisto]' 'T' 'columns=NEVENTS' 'rows=-' 'rownum=No' 'colheader=No'
+INFO   ::
+INFO   ::Read 5 from column NEVENTS 
+INFO   ::Number of events ITYPE=0 PIXEL=35: 72650
+INFO   ::Number of Hp events, PIXEL ipx=72650
+INFO   ::Fraction of events: Hp PIXEL ipix=0.0607852636105861
+INFO   ::Number of events ITYPE=1 PIXEL=35: 16580
+INFO   ::Number of events ITYPE=2 PIXEL=35: 22675
+INFO   ::Number of events ITYPE=3 PIXEL=35: 6426
+INFO   ::Number of events ITYPE=4 PIXEL=35: 12990
+INFO   ::Number of events with ITYPE 0 = 723283
+INFO   ::Number of events with ITYPE 1 = 117999
+INFO   ::Number of events with ITYPE 2 = 178152
+INFO   ::Number of events with ITYPE 3 = 49186
+INFO   ::Number of events with ITYPE 4 = 126571
+INFO   ::Final sum of fractional rmf contributions: 0.605161016105376
+INFO   ::
+INFO   ::FTOOLS CMD: ftcreate 'cdfile=label.cdf' 'datafile=rslfrac.dat' 'headfile=label.hdr' 'outfile=rslfrac_unfiltered.fits' 'clobber=yes'
+INFO   ::
+INFO   ::FTOOLS CMD: ftselect 'infile=rslfrac_unfiltered.fits' 'outfile=!rslfrac.fits' 'expression=WEIGHT>1.0e-9' 'copyall=yes' 'clobber=yes'
+INFO   ::
+INFO   ::FTOOLS CMD: ftverify 'rslfrac.fits'
+INFO   :: 
+INFO   ::               ftverify 4.22 (CFITSIO V4.060)               
+INFO   ::               ------------------------------               
+INFO   :: 
+INFO   ::HEASARC conventions are being checked.
+INFO   :: 
+INFO   ::File: rslfrac.fits
+INFO   ::
+INFO   ::2 Header-Data Units in this file.
+INFO   :: 
+INFO   ::=================== HDU 1: Primary Array ===================
+INFO   :: 
+INFO   :: 7 header keywords
+INFO   :: 
+INFO   :: Null data array; NAXIS = 0 
+INFO   :: 
+INFO   ::=================== HDU 2: BINARY Table ====================
+INFO   :: 
+INFO   :: 18 header keywords
+INFO   :: 
+INFO   :: RSLFRAC  (3 columns x 35 rows)
+INFO   :: 
+INFO   :: Col# Name (Units)       Format
+INFO   ::   1 PIXEL                J         
+INFO   ::   2 GRADE                I         
+INFO   ::   3 WEIGHT               1E        
+INFO   :: 
+INFO   ::++++++++++++++++++++++ Error Summary  ++++++++++++++++++++++
+INFO   :: 
+INFO   :: HDU#  Name (version)       Type             Warnings  Errors
+INFO   :: 1                          Primary Array    0         0     
+INFO   :: 2     RSLFRAC              Binary Table     0         0     
+INFO   :: 
+INFO   ::**** Verification found 0 warning(s) and 0 error(s). ****
+INFO   ::
+INFO   ::
+INFO   ::FTOOLS CMD: rslrmf 'infile=rslfrac.fits' 'outfileroot=4U1700m377_fullobs_S_minproc' 'outrsp=no' 'arfinfile=NONE' 'time=2025-02-10T12:55:52' 'splitrmf=no' 'elcbinfac=32' 'secondaries=yes' 'whichrmf=S' 'rmfparamfile=CALDB' 'eminin=0.0' 'dein=0.5' 'nchanin=60000' 'useingrd=yes' 'eminout=0.0' 'deout=0.5' 'nchanout=60000' 'rmfthresh=1.0e-9' 'emincont=10.0' 'mode=h' 'clobber=yes'
+INFO   ::rslrmf: Completed 0 energy channels out of 60000
+INFO   ::rslrmf: Completed 1000 energy channels out of 60000
+INFO   ::rslrmf: Completed 2000 energy channels out of 60000
+INFO   ::rslrmf: Completed 3000 energy channels out of 60000
+INFO   ::rslrmf: Completed 4000 energy channels out of 60000
+INFO   ::rslrmf: Completed 5000 energy channels out of 60000
+INFO   ::rslrmf: Completed 6000 energy channels out of 60000
+INFO   ::rslrmf: Completed 7000 energy channels out of 60000
+INFO   ::rslrmf: Completed 8000 energy channels out of 60000
+INFO   ::rslrmf: Completed 9000 energy channels out of 60000
+INFO   ::rslrmf: Completed 10000 energy channels out of 60000
+INFO   ::rslrmf: Completed 11000 energy channels out of 60000
+INFO   ::rslrmf: Completed 12000 energy channels out of 60000
+INFO   ::rslrmf: Completed 13000 energy channels out of 60000
+INFO   ::rslrmf: Completed 14000 energy channels out of 60000
+INFO   ::rslrmf: Completed 15000 energy channels out of 60000
+INFO   ::rslrmf: Completed 16000 energy channels out of 60000
+INFO   ::rslrmf: Completed 17000 energy channels out of 60000
+INFO   ::rslrmf: Completed 18000 energy channels out of 60000
+INFO   ::rslrmf: Completed 19000 energy channels out of 60000
+INFO   ::rslrmf: Completed 20000 energy channels out of 60000
+INFO   ::rslrmf: Completed 21000 energy channels out of 60000
+INFO   ::rslrmf: Completed 22000 energy channels out of 60000
+INFO   ::rslrmf: Completed 23000 energy channels out of 60000
+INFO   ::rslrmf: Completed 24000 energy channels out of 60000
+INFO   ::rslrmf: Completed 25000 energy channels out of 60000
+INFO   ::rslrmf: Completed 26000 energy channels out of 60000
+INFO   ::rslrmf: Completed 27000 energy channels out of 60000
+INFO   ::rslrmf: Completed 28000 energy channels out of 60000
+INFO   ::rslrmf: Completed 29000 energy channels out of 60000
+INFO   ::rslrmf: Completed 30000 energy channels out of 60000
+INFO   ::rslrmf: Completed 31000 energy channels out of 60000
+INFO   ::rslrmf: Completed 32000 energy channels out of 60000
+INFO   ::rslrmf: Completed 33000 energy channels out of 60000
+INFO   ::rslrmf: Completed 34000 energy channels out of 60000
+INFO   ::rslrmf: Completed 35000 energy channels out of 60000
+INFO   ::rslrmf: Completed 36000 energy channels out of 60000
+INFO   ::rslrmf: Completed 37000 energy channels out of 60000
+INFO   ::rslrmf: Completed 38000 energy channels out of 60000
+INFO   ::rslrmf: Completed 39000 energy channels out of 60000
+INFO   ::rslrmf: Completed 40000 energy channels out of 60000
+INFO   ::rslrmf: Completed 41000 energy channels out of 60000
+INFO   ::rslrmf: Completed 42000 energy channels out of 60000
+INFO   ::rslrmf: Completed 43000 energy channels out of 60000
+INFO   ::rslrmf: Completed 44000 energy channels out of 60000
+INFO   ::rslrmf: Completed 45000 energy channels out of 60000
+INFO   ::rslrmf: Completed 46000 energy channels out of 60000
+INFO   ::rslrmf: Completed 47000 energy channels out of 60000
+INFO   ::rslrmf: Completed 48000 energy channels out of 60000
+INFO   ::rslrmf: Completed 49000 energy channels out of 60000
+INFO   ::rslrmf: Completed 50000 energy channels out of 60000
+INFO   ::rslrmf: Completed 51000 energy channels out of 60000
+INFO   ::rslrmf: Completed 52000 energy channels out of 60000
+INFO   ::rslrmf: Completed 53000 energy channels out of 60000
+INFO   ::rslrmf: Completed 54000 energy channels out of 60000
+INFO   ::rslrmf: Completed 55000 energy channels out of 60000
+INFO   ::rslrmf: Completed 56000 energy channels out of 60000
+INFO   ::rslrmf: Completed 57000 energy channels out of 60000
+INFO   ::rslrmf: Completed 58000 energy channels out of 60000
+INFO   ::rslrmf: Completed 59000 energy channels out of 60000
+INFO   ::
+INFO   ::
+INFO   ::===========================================================
+INFO   ::                Running rslmkrmf 
+INFO   :: Final Return Code - 0
+INFO   :: Exit with no errors
+INFO   ::===========================================================
+INFO   ::
+INFO   ::Finished.
+# ENDLOG: Thu Feb 19 13:06:09 2026

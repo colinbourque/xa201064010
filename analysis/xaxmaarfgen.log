@@ -1,0 +1,143 @@
+STARTLOG: 2026/02/19 13:22:23
+EXECNAME: xaxmaarfgen
+RUNPATH:  /Users/colinbourque/astrophysics/xray-data/4U-1700-377/XRISM/201064010/analysis
+
+xaxmaarfgen: INFO: Searching CALDB for quantum efficiency file
+xaxmaarfgen: INFO: $CALDB=/Users/colinbourque/soft/caldb
+xaxmaarfgen: INFO: $CALDBCONFIG=/Users/colinbourque/soft/caldb/software/tools/caldb.config
+xaxmaarfgen: INFO: $CALDBALIAS=/Users/colinbourque/soft/caldb/software/tools/alias_config.fits
+xaxmaarfgen: INFO: Querying CALDB with these parameters: 
+xaxmaarfgen: INFO:    TELESCOPE:  XRISM
+xaxmaarfgen: INFO:    INSTRUMENT: RESOLVE
+xaxmaarfgen: INFO:    DETNAM:     -
+xaxmaarfgen: INFO:    FILTER:     -
+xaxmaarfgen: INFO:    CODENAME:   QE
+xaxmaarfgen: INFO:    START DATE: 2025-02-10
+xaxmaarfgen: INFO:    START TIME: 11:45:00
+xaxmaarfgen: INFO:    STOP DATE:  -
+xaxmaarfgen: INFO:    STOP TIME:  -
+xaxmaarfgen: INFO:    EXPRESSION: -
+xaxmaarfgen: INFO: CALDB quantum efficiency file: /Users/colinbourque/soft/caldb/data/xrism/resolve/bcf/quanteff/xa_rsl_quanteff_20190101v001.fits[1]
+xaxmaarfgen: INFO: Searching CALDB for blocking filter file
+xaxmaarfgen: INFO: $CALDB=/Users/colinbourque/soft/caldb
+xaxmaarfgen: INFO: $CALDBCONFIG=/Users/colinbourque/soft/caldb/software/tools/caldb.config
+xaxmaarfgen: INFO: $CALDBALIAS=/Users/colinbourque/soft/caldb/software/tools/alias_config.fits
+xaxmaarfgen: INFO: Querying CALDB with these parameters: 
+xaxmaarfgen: INFO:    TELESCOPE:  XRISM
+xaxmaarfgen: INFO:    INSTRUMENT: RESOLVE
+xaxmaarfgen: INFO:    DETNAM:     -
+xaxmaarfgen: INFO:    FILTER:     -
+xaxmaarfgen: INFO:    CODENAME:   TRANSBLOCKING
+xaxmaarfgen: INFO:    START DATE: 2025-02-10
+xaxmaarfgen: INFO:    START TIME: 11:45:00
+xaxmaarfgen: INFO:    STOP DATE:  -
+xaxmaarfgen: INFO:    STOP TIME:  -
+xaxmaarfgen: INFO:    EXPRESSION: -
+xaxmaarfgen: INFO: CALDB blocking filter file: /Users/colinbourque/soft/caldb/data/xrism/resolve/bcf/quanteff/xa_rsl_blckfilt_20190101v002.fits[1]
+xaxmaarfgen: INFO: Searching CALDB for contamination file
+xaxmaarfgen: INFO: $CALDB=/Users/colinbourque/soft/caldb
+xaxmaarfgen: INFO: $CALDBCONFIG=/Users/colinbourque/soft/caldb/software/tools/caldb.config
+xaxmaarfgen: INFO: $CALDBALIAS=/Users/colinbourque/soft/caldb/software/tools/alias_config.fits
+xaxmaarfgen: INFO: Querying CALDB with these parameters: 
+xaxmaarfgen: INFO:    TELESCOPE:  XRISM
+xaxmaarfgen: INFO:    INSTRUMENT: RESOLVE
+xaxmaarfgen: INFO:    DETNAM:     -
+xaxmaarfgen: INFO:    FILTER:     -
+xaxmaarfgen: INFO:    CODENAME:   COLUMN_DENSITY
+xaxmaarfgen: INFO:    START DATE: 2025-02-10
+xaxmaarfgen: INFO:    START TIME: 11:45:00
+xaxmaarfgen: INFO:    STOP DATE:  -
+xaxmaarfgen: INFO:    STOP TIME:  -
+xaxmaarfgen: INFO:    EXPRESSION: -
+xaxmaarfgen: INFO: CALDB contamination file: /Users/colinbourque/soft/caldb/data/xrism/resolve/bcf/quanteff/xa_rsl_contami_20190101v001.fits[1]
+xaxmaarfgen: INFO: Searching CALDB for gatevalve file
+xaxmaarfgen: INFO: $CALDB=/Users/colinbourque/soft/caldb
+xaxmaarfgen: INFO: $CALDBCONFIG=/Users/colinbourque/soft/caldb/software/tools/caldb.config
+xaxmaarfgen: INFO: $CALDBALIAS=/Users/colinbourque/soft/caldb/software/tools/alias_config.fits
+xaxmaarfgen: INFO: Querying CALDB with these parameters: 
+xaxmaarfgen: INFO:    TELESCOPE:  XRISM
+xaxmaarfgen: INFO:    INSTRUMENT: RESOLVE
+xaxmaarfgen: INFO:    DETNAM:     -
+xaxmaarfgen: INFO:    FILTER:     -
+xaxmaarfgen: INFO:    CODENAME:   GATEVALVTRANS
+xaxmaarfgen: INFO:    START DATE: 2025-02-10
+xaxmaarfgen: INFO:    START TIME: 11:45:00
+xaxmaarfgen: INFO:    STOP DATE:  -
+xaxmaarfgen: INFO:    STOP TIME:  -
+xaxmaarfgen: INFO:    EXPRESSION: -
+xaxmaarfgen: INFO: CALDB gatevalve file: /Users/colinbourque/soft/caldb/data/xrism/resolve/bcf/quanteff/xa_rsl_gatevalv_20190101v002.fits[1]
+xaxmaarfgen: INFO: Searching CALDB for fine grid effective area file
+xaxmaarfgen: INFO: $CALDB=/Users/colinbourque/soft/caldb
+xaxmaarfgen: INFO: $CALDBCONFIG=/Users/colinbourque/soft/caldb/software/tools/caldb.config
+xaxmaarfgen: INFO: $CALDBALIAS=/Users/colinbourque/soft/caldb/software/tools/alias_config.fits
+xaxmaarfgen: INFO: Querying CALDB with these parameters: 
+xaxmaarfgen: INFO:    TELESCOPE:  XRISM
+xaxmaarfgen: INFO:    INSTRUMENT: RESOLVE
+xaxmaarfgen: INFO:    DETNAM:     -
+xaxmaarfgen: INFO:    FILTER:     -
+xaxmaarfgen: INFO:    CODENAME:   EFFAREAFNE
+xaxmaarfgen: INFO:    START DATE: 2025-02-10
+xaxmaarfgen: INFO:    START TIME: 11:45:00
+xaxmaarfgen: INFO:    STOP DATE:  -
+xaxmaarfgen: INFO:    STOP TIME:  -
+xaxmaarfgen: INFO:    EXPRESSION: -
+xaxmaarfgen: INFO: CALDB fine grid effective area file: /Users/colinbourque/soft/caldb/data/xrism/resolve/bcf/mirror/xa_rsl_telarea_20190101v002.fits[1]
+xaxmaarfgen: INFO: Buffering 4U1700m377_fullobs_S_minproc.rmf[MATRIX], size=3303, overlap=0
+xaxmaarfgen: INFO: Buffering /Users/colinbourque/soft/caldb/data/xrism/resolve/bcf/mirror/xa_rsl_telarea_20190101v002.fits[EFFAREACRS], size=7020, overlap=0
+xaxmaarfgen: INFO: Buffering /Users/colinbourque/soft/caldb/data/xrism/resolve/bcf/mirror/xa_rsl_telarea_20190101v002.fits[EFFAREAFNE], size=7020, overlap=0
+xaxmaarfgen: INFO: Buffering xa201064010rsl_p0px1000.expo[OFFAXISHIST], size=1080, overlap=0
+xaxmaarfgen: INFO: Buffering raytrace_xa201064010rsl_p0px1000_ptsrc.fits[INPUTPHOTONS], size=4011, overlap=0
+xaxmaarfgen: INFO: Buffering raytrace_xa201064010rsl_p0px1000_ptsrc.fits[INPUTPHOTONS], size=4011, overlap=0
+xaxmaarfgen: INFO: Buffering /Users/colinbourque/soft/caldb/data/xrism/resolve/bcf/quanteff/xa_rsl_quanteff_20190101v001.fits[QE], size=379, overlap=0
+xaxmaarfgen: INFO: Buffering /Users/colinbourque/soft/caldb/data/xrism/resolve/bcf/quanteff/xa_rsl_blckfilt_20190101v002.fits[TRANSMISSION], size=7020, overlap=0
+xaxmaarfgen: INFO: Buffering /Users/colinbourque/soft/caldb/data/xrism/resolve/bcf/quanteff/xa_rsl_gatevalv_20190101v002.fits[TRANSMISSION], size=14040, overlap=0
+xaxmaarfgen: INFO: Buffering /Users/colinbourque/soft/caldb/data/xrism/resolve/bcf/quanteff/xa_rsl_contami_20190101v001.fits[COLUMN_DENSITY], size=3303, overlap=0
+xaxmaarfgen: INFO: START PARAMETER LIST:
+xaxmaarfgen: INFO: xaxmaarfgen 'telescop=XRISM' 'instrume=RESOLVE' 'emapfile=xa201064010rsl_p0px1000.expo' 'qefile=/Users/colinbourque/soft/caldb/data/xrism/resolve/bcf/quanteff/xa_rsl_quanteff_20190101v001.fits[1]' 'obffile=/Users/colinbourque/soft/caldb/data/xrism/resolve/bcf/quanteff/xa_rsl_blckfilt_20190101v002.fits[1]' 'fwfile=CALDB' 'contamifile=/Users/colinbourque/soft/caldb/data/xrism/resolve/bcf/quanteff/xa_rsl_contami_20190101v001.fits[1]' 'abund=1.0' 'cols=0.0' 'covfac=1.0' 'gatevalvefile=/Users/colinbourque/soft/caldb/data/xrism/resolve/bcf/quanteff/xa_rsl_gatevalv_20190101v002.fits[1]' 'rmffile=4U1700m377_fullobs_S_minproc.rmf' 'onaxisffile=/Users/colinbourque/soft/caldb/data/xrism/resolve/bcf/mirror/xa_rsl_telarea_20190101v002.fits[1]' 'onaxiscfile=/Users/colinbourque/soft/caldb/data/xrism/resolve/bcf/mirror/xa_rsl_telarea_20190101v002.fits[2]' 'polydeg=DEFAULT' 'outfile=4U1700m377_fullobs_S_minproc.arf' 'regionfile=@xaarfgen_region.lis' 'rslgapreg=no' 'doublesonly=no' 'xrtevtfile=raytrace_xa201064010rsl_p0px1000_ptsrc.fits' 'minphoton=100' 'auxtransfile=NONE' 'buffer=-1' 'clobber=YES' 'chatter=1' 'logfile=!DEFAULT' 'debug=NO' 'history=YES' 'mode=h'
+xaxmaarfgen: INFO: END PARAMETER LIST
+
+xaxmaarfgen: INFO: Buffering raytrace_xa201064010rsl_p0px1000_ptsrc.fits[PHOTONHISTORY], size=968, overlap=0
+xaxmaarfgen: INFO: Buffering xa201064010rsl_p0px1000.expo[PARTIALEXP001], size=14040, overlap=0
+xaxmaarfgen: Fraction of PSF in Detector Area = 0.837721
+xaxmaarfgen: Fraction of PSF inside Region = 0.811304
+xaxmaarfgen: INFO: Testing polynomials of order 1 to 10 to find best representation
+xaxmaarfgen: INFO: of coarse effective area ratio.
+xaxmaarfgen: INFO: ORDER   SUM OF SQUARES      MAX ABS DEV
+xaxmaarfgen: INFO:     1  0.098828618947525  0.0275024765336763
+xaxmaarfgen: INFO:     2  0.0471850986960279  0.0243143924931398
+xaxmaarfgen: INFO:     3  0.0510297122610031  0.0225831149038129
+xaxmaarfgen: INFO:     4  0.0234323810936323  0.0172084220519982
+xaxmaarfgen: INFO:     5  0.0188058796482978  0.0198510000634275
+xaxmaarfgen: INFO:     6  0.0192869828570543  0.0196742582897189
+xaxmaarfgen: INFO:     7  0.0207066473134388  0.0185132913821092
+xaxmaarfgen: INFO:     8  0.0242829166040954  0.015730371421721
+xaxmaarfgen: INFO:     9  0.0138242622973404  0.0135797202683269
+xaxmaarfgen: INFO:    10  0.0104482508139291  0.0150373989615223
+xaxmaarfgen: INFO: Order selected by minimum sum of squares:        10
+xaxmaarfgen: INFO: Order having minimum value of max abs deviation: 9
+xaxmaarfgen: INFO: Using polynomial of order 10 to fit coarse effective area ratio
+xaxmaarfgen: INFO: ENERGY      PHOTONS PER ENERGY
+xaxmaarfgen: INFO:    0.3                   10543
+xaxmaarfgen: INFO:    0.4                   34058
+xaxmaarfgen: INFO:    0.5                   44900
+xaxmaarfgen: INFO:      1                   60706
+xaxmaarfgen: INFO:      2                   65277
+xaxmaarfgen: INFO:      3                   42435
+xaxmaarfgen: INFO:      4                   44724
+xaxmaarfgen: INFO:      5                   45629
+xaxmaarfgen: INFO:      6                   45171
+xaxmaarfgen: INFO:      7                   43225
+xaxmaarfgen: INFO:      8                   37736
+xaxmaarfgen: INFO:      9                   32050
+xaxmaarfgen: INFO:     10                   27115
+xaxmaarfgen: INFO:     11                   22001
+xaxmaarfgen: INFO:     12                   10799
+xaxmaarfgen: INFO:     13                   10152
+xaxmaarfgen: INFO:     14                    7182
+xaxmaarfgen: INFO:     15                    6293
+xaxmaarfgen: INFO:   15.9                    5574
+xaxmaarfgen: INFO:   17.1                    4713
+xaxmaarfgen: INFO:     18                    4216
+xaxmaarfgen: INFO: Buffering 4U1700m377_fullobs_S_minproc.arf[SPECRESP], size=9360, overlap=0
+
+ENDLOG:   1.77256 s
